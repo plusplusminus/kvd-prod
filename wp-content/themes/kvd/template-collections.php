@@ -4,7 +4,9 @@
 
 <header class="about-header">
 	<div class="about-header__image">
+
 		<?php the_post_thumbnail('full',array('class','img-responsive')); ?>
+
 	</div>
 	<div class="about-header__content">
 		<h1 class="about-header__title"><?php the_title(); ?></h1>

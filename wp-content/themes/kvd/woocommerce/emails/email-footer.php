@@ -37,7 +37,9 @@ if ( ! defined( 'ABSPATH' ) ) {
                                                             <?php if ($url == 'http://katvanduinen.com') { ?>
                                                                 <img src="http://katvanduinen.com/wp-content/uploads/2015/12/signature.png" alt="Kat van Duinen">
                                                             <?php } else { ?>
-                                                                <img src="http://katvanduinen.com/wp-content/uploads/2015/12/signature.png" alt="Kat van Duinen">
+
+                                                                <img src="http://www.katvanduinen.com/wp-content/uploads/2015/12/signature.png" alt="Kat van Duinen">
+
                                                             <?php } ?>
                                                             <p>Kat van Duinen<br>
                                                             Founder &amp; President</p>

@@ -163,11 +163,14 @@
     		top: 0.9rem;
     		width: 1.5rem;
     		height: 1.5rem;
+
     		background-color: #ccc;
     		border-radius: 0px;
+
 	    }
 	}
 }
+
 
 .c-input > input:checked ~ .c-indicator{
 	background-color: #222;
@@ -203,7 +206,9 @@
 	letter-spacing: 0.07em;
 	font-weight: 600;
 	margin-bottom: 20px;
+
 }
 
 
 .woocommerce span.onsale {display:none;}
+
