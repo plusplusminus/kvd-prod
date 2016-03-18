@@ -1,0 +1,15 @@
+/* Styles to add for the front end input fields and buttons needed for the waitlist */
+.wcwl_control {
+	margin: 0 0 1.714285714rem;
+	padding-top: 0.5%;
+}
+
+.wcwl_email_field {
+	float: left;
+	margin-right: 1%;
+}
+
+.woocommerce_waitlist_label {
+	color: red;
+	line-height: 1.714285714;
+}

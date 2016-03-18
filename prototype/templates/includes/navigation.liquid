@@ -1,0 +1,31 @@
+<div class="navbar-header navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <ul class="nav navbar-nav navbar-right small">      
+          <li><a href="/">Home</a></li>
+          <li {% if mixture.url contains "about" %}class="active"{% endif %}><a href="/about">About</a></li>
+          <li {% if mixture.url contains "news" %}class="active"{% endif %}><a href="/news">News &amp; Updates</a></li>
+          <li {% if mixture.url contains "contact" %}class="active"{% endif %}><a href="/contact">Contact</a></li>
+          <li><a href="#" class="fa fa-facebook"></a></li>
+          <li><a href="#" class="fa fa-twitter"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
+          <li><a href="#" class="fa fa-vimeo-square"></a></li>
+          <li><a href="#" class="fa fa-pinterest"></a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><strong>Singita</strong></a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li {% if mixture.url contains "lodges" %}class="active"{% endif %}><a href="/lodges">Lodges</a></li>
+                <li {% if mixture.url contains "conservation" %}class="active"{% endif %}><a href="/conservation">Conservation</a></li>
+                <li {% if mixture.url contains "community" %}class="active"{% endif %}><a href="/community">Community</a></li>
+              <li> <button type="button" class="btn btn-primary navbar-btn">Enquire Now</button></li>
+            </ul>
+        </div>
+    </div>
+</div>

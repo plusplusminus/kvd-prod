@@ -1,0 +1,89 @@
+{% block content %}
+</div>
+
+<div class="img-container holderjs" data-background-src="?holder.js/1600x750?fg=efefef">
+	<div class="container-fluid">
+		<div class="row">			
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<br><br><br><br><br><br><br>
+				<h1>Singita Lodges<br><small>Emotive heading here</small></h1>
+				<br>
+				<p class="lead">Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="lodge-explore-arrow">	
+				<a href="#explore-top"><p class="small">EXPLORE THE LODGES</p><i class="fa fa-angle-down fa-2x"></i></a>
+				<br><br>
+			</div>
+		</div>
+	</div>
+</div>
+
+<a id="explore-top"></a>
+
+<div class="container">
+
+	<br>
+
+	<div class="row">
+		<div class="col-md-4">
+			<h2>Find the perfect<br>Singita Experience</h2>
+		</div>
+
+		<div class="col-md-8">
+			<br><br>
+			{% include "lodge-selector" %}
+		</div>
+	</div><!--/.row-->
+	
+	<br>
+	<hr>
+	<br>
+
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+	  {% for lodge in model.lodges %}
+	  <div class="col-md-{{ lodge.thumb-col }} col-md-offset-{{ lodge.col-offset }}">
+	    <div class="thumbnail">
+	      <img class="img-responsive" src="holder.js/800px{{lodge.thumb-height}}?fg=efefef">
+	    </div>
+	  </div>
+	  <div class="col-md-{{ lodge.text-col }}">
+  		<a href="/regions/{{ lodge.region-link }}">{{ lodge.region }}</a>
+        <h2><a href="/lodges/{{ lodge.link }}">{{ lodge.name }}</a><br><small>
+        <p class="lead">{{ lodge.description }}</p></small></h2>
+        <p><a href="lodges/{{ lodge.link }}" class="btn btn-link" role="button">Explore <i class="fa fa-long-arrow-right"></i></a></p>
+	  </div>
+	  <div class="{{ lodge.row-clear }}"></div>
+	  {% endfor %}
+	</div><!--/.row-->
+</div><!--/.container-fluid-->
+
+
+<div class="container">
+<br>
+<hr>
+	<div class="row">
+		<div class="col-md-4">
+			<h2>Choose a Region<br>to Explore</h2>
+			<br>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	{% for region in model.regions %}
+	<div class="col-md-offset-{{region.offset}} col-md-4 text-center">
+		<div class="thumbnail">
+			<a href="/regions/{{ region.region-link }}"><img class="img-responsive" src="holder.js/800x260?fg=efefef"></a>
+		</div>
+		<i class="mg mg-2x map-{{region.region-code}}"></i>
+		<h4><a href="/regions/{{ region.region-link }}">{{ region.region }}</a></h4>
+		<P>{{ region.description }}</P>
+		<br>
+	</div>
+	{% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+<div class="navbar navbar-default navbar-inverse">
+    <div class="container">
+        <a class="navbar-brand" href="/conservation">Conservation at Singita</a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li {% if mixture.url == "conservation/conservation-sabi" %}class="active"{% endif %}><a href="/conservation/conservation-sabi">Sabi Sand</a></li>
+                <li {% if mixture.url == "conservation/conservation-kruger" %}class="active"{% endif %}><a href="/conservation/conservation-kruger">Kruger National Park</a></li>
+                <li {% if mixture.url == "conservation/conservation-grumeti" %}class="active"{% endif %}><a href="/conservation/conservation-grumeti">Grumeti</a></li>
+                <li {% if mixture.url == "conservation/conservation-pamushana" %}class="active"{% endif %}><a href="/conservation/conservation-pamushana">Pamushana</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

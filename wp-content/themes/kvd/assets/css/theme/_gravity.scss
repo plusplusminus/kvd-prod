@@ -1,0 +1,116 @@
+
+body{
+	.gform_wrapper{
+		.gform_body{
+			.gform_fields{
+				.gfield{
+					border-bottom: 1px solid $c1;
+					padding-bottom: 20px;
+					margin-bottom: 20px;
+					.gfield_label {
+						text-transform: uppercase;
+						letter-spacing: 0.2em;
+						font-weight: 600;
+						font-size: $font-size-xs;
+					}
+					input[type=text],
+					textarea,
+					select{
+						font-family: "kepler-std-display", sans-serif;
+						padding: .313em 0;
+						text-indent: 0;
+					}
+					select{
+						width: 88%;
+						padding: .313em 0;
+					}
+					.gfield_checkbox{
+						li{
+							input[type=checkbox] {
+								margin: 0;
+								height: 1.2rem;
+								appearance: checkbox;
+								-webkit-appearance: checkbox;
+								-moz-appearance: checkbox;
+							}
+						}
+					}
+					// Newsletter Subscribe
+					&#field_1_5{
+						margin-bottom: 0;
+						padding-bottom: 0;
+						border-bottom: 0;
+						.gfield_label{
+							width: 0 !important;
+						}
+						.gfield_checkbox{
+							margin-left: 0 !important;
+						}
+					}
+					#label_1_5_1{
+						font-size: $font-size-xs;
+						letter-spacing: 0.1em;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+		.left_label{
+			.gfield_label{
+				width: 100%;
+				@media(min-width:992px) {
+					width: 10%;
+				}
+			}
+			input.large{
+				width: 88%;
+			}
+			li.field_sublabel_below{
+				.gfield_label{
+					margin-top: 0.7em;
+					margin-bottom: 0.4em;
+				}
+			}
+		}
+		.gform_footer{
+			padding: 0;
+			margin: 0;
+			&.left_label{
+				width: inherit;
+			}
+			input[type=submit]{
+				@extend .link-underline;
+				@extend .read-more;
+				float: right;
+				border-bottom: 2px solid $c2;
+				border-bottom-width: 2px !important;
+				border-radius: 0;
+				transition: all 0.3s linear 0s;
+
+				&:hover{
+					border-bottom: 2px solid transparent;
+				}
+			}
+
+		}
+		div.validation_error{
+			border: none;
+		}
+
+		li.gfield.gfield_error,
+		li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning{
+			background-color: #fff;
+			border: none;
+		}
+	}
+}
+
+
+
+
+#gform_wrapper_1 { 
+	input,textarea,select {
+		border-width:0;
+		background-color:transparent;
+	}
+}

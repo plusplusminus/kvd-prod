@@ -1,0 +1,14 @@
+<div class="navbar navbar-default navbar-inverse">
+    <div class="container">
+        <a class="navbar-brand" href="/regions">Singita Regions</a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li {% if mixture.url == "regions/sabi" %}class="active"{% endif %}><a href="/regions/sabi">Sabi Sand</a></li>
+                <li {% if mixture.url == "regions/kruger" %}class="active"{% endif %}><a href="/regions/kruger">Kruger National Park</a></li>
+                <li {% if mixture.url == "regions/grumeti" %}class="active"{% endif %}><a href="/regions/grumeti">Grumeti</a></li>
+                <li {% if mixture.url == "regions/lamai" %}class="active"{% endif %}><a href="/regions/lamai">Lamai</a></li>
+                <li {% if mixture.url == "regions/pamushana" %}class="active"{% endif %}><a href="/regions/pamushana">Pamushana</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

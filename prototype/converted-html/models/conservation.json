@@ -1,0 +1,52 @@
+{
+	"conservations": [
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "",
+			"title": "Wildlife Conservation",
+			"link": "conservation-sabi",
+			"region-link": "sabi",
+			"region": "Singita Sabi Sand",
+			"intro": "Singita Sabi Sand employs a dedicated team focused on protecting and conserving the bio-diversity of the incredible land under its care. The primary responsibilities of the Environmental Team at Singita Sabi Sand are anti-poaching measures and environmental care."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "clearfix space",
+			"title": "Touching the Earth Lightly",
+			"link": "conservation-kruger",
+			"region-link": "kruger",
+			"region": "Singita Kruger National Park",
+			"intro": "The lodges in Singita Kruger National Park were built on the promise to “touch the earth lightly”. This commitment has been manifested in the way the lodges were constructed; how they operate today; and how guests experience the wildlife and the natural habitat."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "",
+			"title": "Anti-Poaching Team",
+			"link": "conservation-grumeti",
+			"region-link": "grumeti",
+			"region": "Singita Grumeti",
+			"intro": "Singita Grumeti lies adjacent to the western corridor of the Serengeti National Park, Africa’s No. 1 World Heritage Site, and spans some 350,000 acres of untouched wilderness, forming part of the Serengeti Mara Ecosystem."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "clearfix space",
+			"title": "Rhino Reintroduction Programme",
+			"link": "conservation-pamushana",
+			"region-link": "pamushana",
+			"region": "Singita Pamushana",
+			"intro": "In 1994, the not-for-profit Malilangwe Trust was established in order to protect and manage the extraordinary wilderness area next to the Gonarezhou National Park in southeastern Zimbabwe."
+		}
+	]
+}

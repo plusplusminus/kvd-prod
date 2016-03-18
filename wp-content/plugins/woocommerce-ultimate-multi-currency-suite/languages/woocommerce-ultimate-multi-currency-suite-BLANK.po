@@ -1,0 +1,692 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Ultimate Multi Currency Suite\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-02-03 06:08+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Daniel Wroblewski <info@dev49.net>\n"
+"Language-Team: Dev49.net <info@dev49.net>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/class-wcumcs-admin.php:108
+msgid "You cannot use more than 40 currencies."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:109
+msgid "You must use at least one currency."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:110
+msgid "This currency is already on the currencies list."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:111
+msgid "Default currency"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:112
+msgid "+ Add selected currency to the list"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:113
+msgid "Currency code"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:114
+msgid "Currency name"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:115
+msgid "Currency symbol"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:116
+msgid "Currency position"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:117
+msgid "Thousand separator"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:118
+msgid "Decimal separator"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:119
+msgid "Number of decimals"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:120
+msgid "Remove currency"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:121
+msgid "Left"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:122
+msgid "Right"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:123
+msgid "Left with space"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:124
+msgid "Right with space"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:125
+msgid "Currency exchange rate API"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:126
+msgid "Currency exchange rate"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:127
+msgid "Update using API"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:128
+msgid "Update now &nbsp;&#8635;"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:129
+msgid "Update all exchange rates &nbsp;&#8635;"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:130 inc/class-wcumcs-admin.php:877
+msgid "Restore default settings"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:131 inc/class-wcumcs-admin.php:848
+msgid "Change currencies"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:132
+msgid "Save changes"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:133
+msgid "2-letter ISO 3166-1 country code"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:134
+msgid "3-digit ISO 4217 currency code"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:135
+msgid "Add country"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:136
+msgid ""
+"Are you sure you want to restore Multi Currency Suite to its default "
+"configuration? This will erase all your plugin data!"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:137
+msgid ""
+"Server error occured - operation could not be completed. Please try again "
+"later."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:138
+msgid ""
+"Error occured while updating the currency exchange rate. Please try using "
+"different API(s). The following currencies were not updated: "
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:139
+msgid "Exchange rates have been updated successfully."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:179
+msgid "Order currency"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:222
+msgid "Choose order currency"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:224
+msgid ""
+"Select currency here and click Save Order for change to take effect. Please "
+"keep in mind that changing currency WILL NOT convert order items prices."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:302
+msgid ""
+"WooCommerce base currency has been modified. Exchange rates of your "
+"currencies have been automatically updated using default API."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:310
+#, php-format
+msgid ""
+"WooCommerce base currency has been modified. Exchange rates of your "
+"currencies have been automatically updated using default API. There were "
+"problems with updating the following currencies: %s."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:336
+msgid "Coupon amounts (alternative currencies)"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:337
+msgid ""
+"Coupon amounts for alternative currencies are available only for non-percent "
+"based coupons."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:340
+msgid ""
+"If specified, values entered below will be used instead of automatically "
+"calculated one for alternative currencies. If you want to have amounts "
+"converted automatically, leave the field empty."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:353
+msgid "Coupon amount"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:354 inc/class-wcumcs-admin.php:434
+#: inc/class-wcumcs-admin.php:448 inc/class-wcumcs-admin.php:528
+#: inc/class-wcumcs-admin.php:543
+msgid "Auto"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:355
+#, php-format
+msgid ""
+"Enter coupon amount in %s or leave the field empty if you want it to be "
+"calculated automatically."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:416
+msgid "Product multi-currency prices"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:417 inc/class-wcumcs-admin.php:511
+msgid ""
+"If specified, prices entered below will be used instead of automatically "
+"calculated ones. If you want to have prices converted automatically, leave "
+"the field empty."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:430 inc/class-wcumcs-admin.php:524
+msgid "Regular Price"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:432 inc/class-wcumcs-admin.php:526
+#, php-format
+msgid ""
+"Enter regular price in %s or leave the field empty if you want it to be "
+"calculated automatically."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:444 inc/class-wcumcs-admin.php:539
+msgid "Sale Price"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:446
+#, php-format
+msgid ""
+"Enter sale price in %s or leave the field empty if you want it to be "
+"calculated automatically. Please note that this price will only be used if "
+"sale has been activated for this product - sale must be activated for all "
+"currencies."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:510
+msgid "Variation multi-currency prices"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:541
+#, php-format
+msgid ""
+"Enter sale price in %s or leave the field empty if you want it to be "
+"calculated automatically. Please note that this price will only be used if "
+"sale has been activated for this variation - sale must be activated for all "
+"currencies."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:609
+msgid "Cost"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:612
+#, php-format
+msgid ""
+"Enter shipping cost in %s or leave the field empty if you want it to be "
+"calculated automatically."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:701
+msgid "Settings"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:714
+msgid "General"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:715
+msgid "Currencies"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:716
+msgid "Exchange rates"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:717
+msgid "Display"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:718
+msgid "Advanced"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:723
+msgid "<strong style=\"text-decoration:underline\">Plugin activation</strong>"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:768
+msgid "Plugin has been activated successfully."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:771
+msgid "Purchase code incorrect. Please try again."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:778
+msgid "Plugin activation"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:780
+msgid ""
+"Please activate this plugin using your Envato Marketplace purchase code. You "
+"can find your purchase code in Downloads section of your Envato profile and "
+"in the e-mail you received right after purchasing this item. Activating the "
+"plugin gives you access to free automatic updates with new features as well "
+"as security fixes.<br />See <a href=\"https://help.market.envato.com/hc/en-"
+"us/articles/202822600-Where-Can-I-Find-my-Purchase-Code-\">Where Can I Find "
+"My Purchase Code?</a> article on Envato."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:785
+msgid "Your purchase code"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:789
+msgid "Paste your plugin purchase code here."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:830
+msgid "Advanced configuration"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:832
+msgid "This section is intended to be used by advanced users."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:842
+msgid "Country currency data"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:852
+msgid ""
+"Use this option if you want to specify different default currencies for "
+"specific countries. This option is only used when geolocation feature is "
+"active."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:862 inc/class-wcumcs-admin.php:1159
+msgid "Additional options"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:868
+msgid "Static page cache"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:869
+msgid "Currency switching with page caching support"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:870
+msgid ""
+"If you are using a static caching plugin, currency switching may not be "
+"working properly. Enabling this feature appends additional query string at "
+"the end of the URL (depending on the active currency), which causes cache "
+"invalidation."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:880
+msgid ""
+"If you experience significant problems with this Multi Currency plugin, you "
+"can restore plugin to its default settings. Please keep in mind that this "
+"function completely erases all your Multi Currency Suite settings!"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:903 inc/class-wcumcs-admin.php:1131
+msgid "Display options"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:905
+msgid "Configure how your users see this plugin."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:910
+msgid "Currency switcher text"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:913 inc/class-wcumcs-settings.php:822
+msgid "Choose your preferred currency"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:914
+msgid ""
+"Type in the text that will appear above the currency switcher. You can leave "
+"this field empty if you do not want any text to appear above the switcher."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:919
+msgid "Currency switcher theme"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:923
+msgid "Dropdown list"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:925
+msgid "Buttons"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:928
+msgid ""
+"Select your preferred method of displaying currency switcher. To insert the "
+"currency switcher on your page you can use a widget, shortcode or PHP "
+"function. See plugin documentation for more information."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:933
+msgid "Custom currency template"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:937
+msgid ""
+"Type in the custom template of how the currency should be displayed in "
+"currency switcher. Use the following tags: %code%, %name%, %symbol%. Leave "
+"empty if you want to use default settings. See plugin documentation for more "
+"information."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:942
+msgid "Custom CSS rules"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:943
+msgid ""
+"Type in additional CSS code if you would like to change how the currency "
+"switcher is displayed. Please see plugin documentation for more information."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:951
+msgid "Custom JavaScript code"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:952
+msgid ""
+"Type in additional JavaScript code if you whish to increase plugin "
+"functionality. This JavaScript code will be injected at the bottom of your "
+"site."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:988
+msgid "Currency exchange rates"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:990
+msgid "Configure exchange rates for your currencies."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:995
+msgid "Exchange rates update"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:999
+msgid ""
+"Automatically update exchange rates once a day using chosen services "
+"(schedules WordPress Cron job)"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1000
+msgid ""
+"Do not automatically update exchange rates - use fixed exchange rates "
+"specified below"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1002
+msgid ""
+"Choose whether you want to have daily updated exchange rates or fixed "
+"exchange rates."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1007
+msgid "Your currencies"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1010
+msgid ""
+"Specify the exchange rate manually or click Update to update exchange rate "
+"using one of provided third party services. Exchange rate value is in "
+"relation to your store's default currency."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1075
+msgid "Currencies list"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1077
+msgid "Configure list of currencies available to your users."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1082
+msgid "Available currencies"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1085
+msgid ""
+"These are currencies available to your users. Drag and drop currencies to "
+"control their display order on the frontend."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1090
+msgid "Add new currency"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1095
+msgid "Choose new currency from the list"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1112
+msgid "General settings"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1114
+msgid "Configure general Multi Currency Suite settings."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1119
+msgid "Alternative currencies"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1123
+msgid ""
+"Use additional currencies for user's reference only (payment in store's "
+"<strong>base currency</strong>)"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1124
+msgid ""
+"Use additional currencies for user's reference and for checkout (payment in "
+"<strong>alternative currency</strong>)"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1126
+msgid ""
+"Choose whether payment should happen in base currency or in alternative "
+"currency. Please keep in mind that some currencies may NOT be supported by "
+"certain payment gateways. If you are not sure which option to choose, please "
+"select the first one."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1132
+msgid ""
+"Show checkout total in store's base currency (only for payments in "
+"<strong>base currency</strong>)"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1133
+msgid ""
+"In checkout, right before the payment is made, user will see the final "
+"amount he will have to pay in store's base currency."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1141
+msgid "Checkout total text"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1144 inc/class-wcumcs-frontend.php:691
+#: inc/class-wcumcs-settings.php:821
+msgid "Total payment:"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1145
+msgid ""
+"If you decided to show total payment amount on checkout page before the "
+"actual payment, you can define this text here."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1150
+msgid "Your email address"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1154
+msgid ""
+"If automatic currency exchange rates update fails, a notification will be "
+"sent to this email address. If you do not want to receive the notification, "
+"leave this field empty."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1160
+msgid "Remember visitor's currency choice"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1161
+msgid ""
+"The next time user visits your website, his currency will be automatically "
+"changed to the one he has chosen previously (creates a cookie)."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1169
+msgid "Enable IP geolocation"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1173
+#, php-format
+msgid ""
+"When user visits your website, his currency will be automatically switched "
+"to currency used in his country. This option will only work if you have "
+"enabled this currency in Currencies section. Otherwise, store's base "
+"currency will be used. Currency for every country can be changed in <a href="
+"\"%s\">Advanced</a> section."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1178
+msgid ""
+"Allow predefined product and variation prices, coupon amounts and shipping "
+"costs in available currencies (only for payments in <strong>alternative "
+"currency</strong>)"
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1182
+msgid ""
+"You can set prices in various currencies for each product and its variations "
+"on WooCommerce product edit pages, as well as coupon amounts on coupon edit "
+"pages."
+msgstr ""
+
+#: inc/class-wcumcs-admin.php:1206
+msgid "Multi Currency Suite"
+msgstr ""
+
+#: inc/class-wcumcs-callbacks.php:98
+msgid "Default settings have been successfully restored."
+msgstr ""
+
+#: inc/class-wcumcs-frontend.php:462
+#, php-format
+msgctxt "Price range: from-to"
+msgid "%1$s&ndash;%2$s"
+msgstr ""
+
+#: inc/class-wcumcs-main.php:159
+#, php-format
+msgid "<p><strong>%s</strong> plugin requires %s version %s or greater.</p>"
+msgstr ""
+
+#: inc/class-wcumcs-settings.php:901
+msgid "Currency exchange rate update failed"
+msgstr ""
+
+#: inc/class-wcumcs-settings.php:902
+msgid ""
+"Error occured while updating your currencies exchange rates. The following "
+"currencies were not updated:"
+msgstr ""
+
+#: inc/class-wcumcs-settings.php:907
+msgid ""
+". Please go to WooCommerce Ultimate Multi Currency Suite settings and try "
+"chaging the API for listed currencies."
+msgstr ""
+
+#: inc/class-wcumcs-widget.php:34
+msgid "Currency Switcher"
+msgstr ""
+
+#: inc/class-wcumcs-widget.php:36
+msgid "WooCommerce Ultimate Multi Currency Suite widget"
+msgstr ""
+
+#: inc/class-wcumcs-widget.php:66
+msgid "Change currency"
+msgstr ""
+
+#: inc/class-wcumcs-widget.php:73
+msgid "Title:"
+msgstr ""
+
+#: inc/class-wcumcs-widget.php:80
+#, php-format
+msgid ""
+"Currency switcher will appear in this widget. To change the way switcher is "
+"displayed, please go to WooCommerce Ultimate Multi Currency Suite <a href="
+"\"%s\">Currency switcher display settings</a>."
+msgstr ""

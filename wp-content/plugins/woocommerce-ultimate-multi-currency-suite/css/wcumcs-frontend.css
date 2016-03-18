@@ -1,0 +1,79 @@
+﻿/**
+ * 
+ * Plugin: WooCommerce Ultimate Multi Currency Suite
+ * Author: http://dev49.net
+ *
+ */
+
+
+/* ---------------------------- SWITCHER THEMES ---------------------------- */
+
+
+/* Regular option-select (dropdown/combobox) */
+
+	/* Main container */
+	.wcumcs-switcher-dropdown.wcumcs-container {
+		
+	}
+
+	/* Text before combobox (<p>) */
+	.wcumcs-switcher-dropdown.wcumcs-container p.wcumcs-text { 
+		
+	}
+
+	/* Combobox (<select> tag) */
+	.wcumcs-switcher-dropdown.wcumcs-container select.wcumcs-select { 
+		
+	}
+
+	/* Combobox option (<option> tag) */
+	.wcumcs-switcher-dropdown.wcumcs-container option.wcumcs-option { 
+		
+	}
+
+
+
+/* Buttons (<li> items) */
+
+	/* Main container */
+	.wcumcs-switcher-buttons.wcumcs-container {
+
+	}
+
+	/* Text before buttons (<p>) */
+	.wcumcs-switcher-buttons.wcumcs-container p.wcumcs-text { 
+		
+	}
+
+	/* List (<ul> tag) */
+	.wcumcs-switcher-buttons.wcumcs-container ul.wcumcs-list { 
+		overflow: hidden;
+		list-style: none outside;
+	}
+
+	/* List item (<li> tag) */
+	.wcumcs-switcher-buttons.wcumcs-container li.wcumcs-list-item { 
+		float: left;
+		margin: 0 4px 4px 0;
+		list-style: none outside;
+	}
+
+	/* Link in a list item (<a> tag) */
+	.wcumcs-switcher-buttons.wcumcs-container a.wcumcs-list-item-link { 
+		float: left;
+		padding: 1px 5px;
+		border: 1px solid #E6E6E6;
+		border-radius: 5px;
+		transition: all 150ms ease;
+	}
+
+	/* Selected link in a list item (<a> tag) */
+	.wcumcs-switcher-buttons.wcumcs-container a.wcumcs-list-item-link.selected { 
+		background: #F2F2F2;
+	}
+
+	/* Hover link in a list item (<a> tag) */
+	.wcumcs-switcher-buttons.wcumcs-container a.wcumcs-list-item-link:hover { 
+		background: #FAFAFA;
+		transition: all 150ms ease;
+	}

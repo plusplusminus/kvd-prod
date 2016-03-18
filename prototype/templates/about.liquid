@@ -1,0 +1,62 @@
+{% block content %}
+</div>
+<div class="content-container">
+
+	{% include "about-navigation" %}
+
+	<div class="single-text-holder img-container holderjs" data-background-src="?holder.js/1600x350?fg=efefef">
+		<div class="container-fluid">
+			<div class="row">			
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<br><br><br><br>
+					<h1>About Singita<br><small>Singita's core vision is to preserve and protect large tracts of wilderness in Africa for future generations.</small></h1>
+					<br><br>
+					<p class="lead"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container">
+	<br><br><br>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Dedicated to environmentally conscious hospitality, sustainable conservation and the empowerment of local communities, Singita, meaning “place of miracles,” was founded in 1993 with a single lodge, Singita Ebony Lodge.</p>
+				 
+					<p>Built on family owned land in what is now known as the Sabi Sand Game Reserve, Singita’s mission is to share a unique part of the world, while maintaining respect for the natural environment and challenging accepted notions of luxury.  </p>
+				</div>
+
+				<div class="col-md-6">
+					<p>Today, Singita is the trusted guardian of over half a million acres of pristine land in Africa and responsible for successful community development projects, making a tangible difference in the lives of the people living and working in and around its lodges.</p>
+					<p>Singita proudly operates 12 lodges and camps, each a unique experience in its own right, in five regions across three countries in Africa.</p>
+				</div>
+			</div>
+		</div>
+	</div><!--/.row-->
+	<br><br><hr><br>
+
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+	  {% for about in model.abouts %}
+	  <div class="col-md-{{ about.thumb-col }} col-md-offset-{{ about.col-offset }}">
+	    <div class="thumbnail">
+	      <a href="about/{{ about.link }}"><img class="img-responsive" src="holder.js/800px{{about.thumb-height}}?fg=efefef"></a>
+	    </div>
+	  </div>
+	  <div class="col-md-{{ about.text-col }}">
+        <h2><a href="/about/{{ about.link }}">{{ about.title }}</a><br><small>
+        <p class="lead">{{ about.intro }}</p></small></h2>
+        <p><a href="about/{{ about.link }}" class="btn btn-link" role="button">More <i class="fa fa-long-arrow-right"></i></a></p>
+	  </div>
+	  <div class="{{ about.row-clear }}"></div>
+	  {% endfor %}
+	</div><!--/.row-->
+	<br>
+</div><!--/.container-fluid-->
+{% endblock %}

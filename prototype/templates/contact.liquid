@@ -1,0 +1,256 @@
+{% block content %}
+</div>
+<div class="content-container">
+
+	<div class="single-title-holder img-container holderjs" data-background-src="?holder.js/1600x350?fg=efefef">
+		<div class="container-fluid">
+			<div class="row">			
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<br><br><br><br>
+					<h1>Contact Information<br><small></small></h1>
+					<br><br>
+					<p class="lead"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 text-center awards-toggle">
+			<br>
+				<div class="btn-group text-center" role="group" style="float:none;">
+		    		<a href="#0" data-toggle="tab" class="btn btn-default btn-link active" style="float:none;">Reservations</a>
+		    		<a href="#1" data-toggle="tab" class="btn btn-default btn-link" style="float:none;">Lodges</a>
+					<a href="#2" data-toggle="tab" class="btn btn-default btn-link" style="float:none;">Management Company</a>
+					<a href="#3" data-toggle="tab" class="btn btn-default btn-link" style="float:none;">Sales</a>
+				</div>
+			<hr>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<br><br><br>
+	<div class="row">
+		<div class="col-md-8">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="0">
+							<div class="row">
+								<div class="col-md-6">
+									<h4>Contact Details: Reservations</h4>
+										<table class="table table-condensed table-hover">
+											<thead>
+												<tr>
+													<td>Tel:</td>
+													<td>+27 (0)21 683 3424</td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Email:</td>
+													<td><a href="#">enquiries@singita.com</a></td>
+												</tr>
+											</tbody>
+										</table>
+								</div>
+								<div class="col-md-6">
+									<h4>Message Reservartions</h4>
+									{% include "contact/contact-form" %}
+								</div>
+							</div>
+						</div><!--/.tabpanel-->
+
+						<div role="tabpanel" class="tab-pane" id="1">
+							<div class="row">
+								<div class="col-md-6">
+									<h4>Contact Details: Lodges</h4>
+										<table class="table table-condensed table-hover">
+											<thead>
+												<tr>
+													<th colspan="2"><strong>Singita Ebony &amp; Boulders Lodges</strong></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Tel:</td>
+													<td>+27 (0)13 735 9800</td>
+												</tr>
+											</tbody>
+										</table>
+										<br><br>
+										<table class="table table-condensed table-hover">
+											<thead>
+												<tr>
+													<th colspan="2"><strong>Singita Sasakwa & Faru Faru Lodges<br>
+													Sabora Tented Camp<br>
+													Explore Mobile Tented Camp<br>
+													Serengeti House & Mara River Tented Camp</strong></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Tel:</td>
+													<td>+1 770 947 7049/98</td>
+												</tr>
+											</tbody>
+										</table>
+										<br><br>
+										<table class="table table-condensed table-hover">
+											<thead>
+												<tr>
+													<th colspan="2"><strong>Singita Pamushana Lodge<br></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Tel:</td>
+													<td>+263 (0)772 292 056</td>
+												</tr>
+											</tbody>
+										</table>
+								</div>
+								<div class="col-md-6">
+									<h4>Message a Lodge</h4>
+									{% include "contact/contact-form" %}
+								</div>
+							</div>
+						</div><!--/.tabpanel-->
+
+						<div role="tabpanel" class="tab-pane" id="2">
+							<div class="row">
+								<div class="col-md-6">
+									<h4>Contact Details: Management Company</h4>
+										<table class="table table-condensed table-hover">
+											<thead>
+												<tr>
+													<td>Address:</td>
+													<td>1 Oakdale House, The Oval, Oakdale Road<br>Newlands, Cape Town, 7735</td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Tel:</td>
+													<td><a href="#">+27 (0)21 683 3424</a></td>
+												</tr>
+											</tbody>
+										</table>
+								</div>
+								<div class="col-md-6">
+									<h4>Message the Management Company</h4>
+									{% include "contact/contact-form" %}
+								</div>
+							</div>
+						</div><!--/.tabpanel-->
+
+						<div role="tabpanel" class="tab-pane" id="3">
+							<div class="row">
+								<div class="col-md-6">
+									<h4>Contact Details: Sales</h4>
+										<table class="table table-condensed table-hover">
+											<thead>
+												<tr>
+													<th colspan="2"><strong>North America Sales</strong></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td colspan="2">Lara Vancans - JG Black Book of Travel</td>
+												</tr>
+												<tr>
+													<td>Tel:</td>
+													<td>+ 1 917 832 1472</td>
+												</tr>
+												<tr>
+													<td>Email:</td>
+													<td>lara@jgblackbook.com</td>
+												</tr>
+											</tbody>
+										</table>
+										<br><br>
+										<table class="table table-condensed table-hover">
+											<thead>
+												<tr>
+													<th colspan="2"><strong>UK &amp; Europe Sales</strong></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td colspan="2">Elle Reinink</td>
+												</tr>
+												<tr>
+													<td>Tel:</td>
+													<td>+44 (0)7990 517678</td>
+												</tr>
+												<tr>
+													<td>Email:</td>
+													<td>elle.r@singita.com</td>
+												</tr>
+											</tbody>
+										</table>
+										<br><br>
+										<table class="table table-condensed table-hover">
+											<thead>
+												<tr>
+													<th colspan="2"><strong>South America &amp; Mexico Sales</strong></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td colspan="2">Carolina Benia - The Marketing Collection</td>
+												</tr>
+												<tr>
+													<td>Tel:</td>
+													<td>+598 99 87 86 84</td>
+												</tr>
+												<tr>
+													<td>Email:</td>
+													<td>carolina@themarketingcollection.com</td>
+												</tr>
+											</tbody>
+										</table>
+								</div>
+								<div class="col-md-6">
+									<h4>Message Sales</h4>
+									{% include "contact/contact-form" %}
+								</div>
+							</div>
+						</div><!--/.tabpanel-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="well">
+				<h4>Subscribe to the Singita Monthly Newsletter</h4>
+				<p>Receive a monthly newsletter with all the updates about Singita. Duis mollis, est non commodo luctus.</p>
+				<form class="form-inline">
+				  <div class="form-group">
+				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email">
+				  </div>
+				  <button type="submit" class="btn btn-default">Subscribe</button>
+				</form>
+			</div>
+
+			<br>
+
+			<div class="list-group">
+			  <a class="list-group-item" href="#"><i class="fa fa-facebook fa-fw"></i>&nbsp; Like us on Facebook</a>
+			  <a class="list-group-item" href="#"><i class="fa fa-instagram fa-fw"></i>&nbsp; See our Instagram Photos</a>
+			  <a class="list-group-item" href="#"><i class="fa fa-twitter fa-fw"></i>&nbsp; Follow our Tweets</a>
+			  <a class="list-group-item" href="#"><i class="fa fa-pinterest fa-fw"></i>&nbsp; See our Pinterest Boards</a>
+			  <a class="list-group-item" href="#"><i class="fa fa-vimeo-square fa-fw"></i>&nbsp; Watch our Vimeo Videos</a>
+			</div>
+
+
+		</div>
+	</div><!--/.row-->
+	<br><br><br>
+
+</div>
+
+{% endblock %}

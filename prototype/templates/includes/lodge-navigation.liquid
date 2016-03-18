@@ -1,0 +1,25 @@
+<div class="navbar navbar-default navbar-inverse">
+    <div class="container">
+        <a class="navbar-brand" href="#">Ebony Lodge</a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li>
+                  <a href="#" data-target="#" role="button" data-toggle="dropdown">Lodge Details <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    {% include "/lodges/lodge-single/menu-details" %}
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" data-target="#" role="button" data-toggle="dropdown">Lodge Activities <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    {% include "/lodges/lodge-single/menu-activities" %}
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" data-toggle="modal" data-target="#modalRates">Rates</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

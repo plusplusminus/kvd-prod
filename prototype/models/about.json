@@ -1,0 +1,60 @@
+{
+	"title": "Abouts",
+	"abouts": [
+		{
+			"col-offset": "1",
+			"thumb-col": "6",
+			"text-col": "4",
+			"thumb-height": "380",
+			"row-clear": "clearfix space",
+			"title": "The History of Singita",
+			"link": "about-history",
+			"sub": "Conservation, Community Empowerment<br> and a Lasting Positive Impact",
+			"intro": "Singita’s story began in 1925 when Luke Bailes’ grandfather purchased a piece of land in what would later become the Sabi Sand Reserve in South Africa. "
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "",
+			"title": "Media",
+			"link": "about-media",
+			"sub": "",
+			"intro": "We are happy to have been featured in these publications."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "clearfix space",
+			"title": "Press",
+			"link": "about-press",
+			"sub": "",
+			"intro": "Press releases and contact information."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "",
+			"title": "Awards",
+			"link": "about-awards",
+			"sub": "Sub heading",
+			"intro": "We are honored to receive many awards."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "clearfix space",
+			"title": "Careers",
+			"link": "about-careers",
+			"sub": "",
+			"intro": "Join our amazing team."
+		}
+	]
+}

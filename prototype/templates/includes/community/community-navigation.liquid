@@ -1,0 +1,13 @@
+<div class="navbar navbar-default navbar-inverse">
+    <div class="container">
+        <a class="navbar-brand" href="/community">Community at Singita</a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li {% if mixture.url == "community/community-sabi" %}class="active"{% endif %}><a href="/community/community-sabi">Sabi Sand</a></li>
+                <li {% if mixture.url == "community/community-kruger" %}class="active"{% endif %}><a href="/community/community-kruger">Kruger National Park</a></li>
+                <li {% if mixture.url == "community/community-grumeti" %}class="active"{% endif %}><a href="/community/community-grumeti">Grumeti</a></li>
+                <li {% if mixture.url == "community/community-pamushana" %}class="active"{% endif %}><a href="/community/community-pamushana">Pamushana</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

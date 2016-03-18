@@ -1,0 +1,108 @@
+.woocommerce  
+{ 
+	table.shop_table{
+		border-radius: 0;
+		td{
+			padding: 20px 12px;
+		}
+		.product-name{
+			display: table-cell;
+			font-size: inherit;
+		}
+		.product-price{
+			font-size: inherit;
+			opacity: 1;
+			font-style: normal;
+		}
+		a.remove{
+			color: #fff !important;
+			background: #222 !important;
+			border-radius: 0;
+			&:hover{
+				background-color: red !important;
+			}
+		}
+		td a {
+		    color: #222;
+		}
+		td.product-name dl.variation dd p {
+			padding-bottom:0;
+		}
+		td.product-name dl.variation dd, .woocommerce td.product-name dl.variation dt {
+		    display: block;
+		    float: left;
+		    margin-bottom: 0;
+		}
+		td.product-name {
+			line-height: 25px;
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
+
+.woocommerce-page table.cart td.actions,
+.woocommerce table.cart td.actions{
+	.coupon{
+		width: 230px;
+		input.button{
+			width: initial;
+		}
+	}
+	.input-text{
+		width: 120px;	
+	}
+	input.button{
+		width: inherit;
+	}
+}
+
+.cart_list{
+	dt.variation-Material,
+	dt.variation-Colour{
+		text-transform: uppercase;
+		font-size: 10px;
+		font-family: "proxima-nova", sans-serif;
+		font-weight: 600;
+	}
+}
+
+.wl-list-pop  {
+	background: #ffffff;
+    border-left: 1px solid #f1f1f1;
+    display: block;
+    height: 100%;
+    padding-top: 65px;
+    position: fixed;
+    text-align: left;
+    
+    right: 0;
+    top: 0!important;
+    left:auto!important;
+    width: 306px;
+    max-width: 306px;
+    z-index: 10002;
+    overflow: auto;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    dt {
+    	color: #222222;
+		font-family: "kepler-std-display", sans-serif;
+		text-transform: capitalize;
+		text-align: left;
+		font-size: 25px;
+		font-weight: 400;
+    }
+    dd .wl-add-to-single {
+	    color: #333333;
+	    
+	    font-size: 10px;
+	    font-weight: 500;
+	    letter-spacing: 0.3em;
+	    text-transform: uppercase;
+	}
+}

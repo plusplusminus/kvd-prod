@@ -1,0 +1,313 @@
+﻿/**
+ * 
+ * Plugin: WooCommerce Ultimate Multi Currency Suite
+ * Author: http://dev49.net
+ *
+ */
+
+
+
+/* ---------- Global start ---------- */
+
+
+/* Center alignment for any element */
+.wcumcs-center {
+	text-align: center !important;
+}
+
+
+/* Ajax screen-blocker */
+.wcumcs-block-div {
+	opacity: 0;
+	background: #ffffff url("../img/loader.gif") fixed center no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+	z-index: 99999;
+}
+
+
+/* ---------- Global end ---------- */
+
+
+/* ---------- Currencies and Exchange rates sections styling start ---------- */
+
+
+/* Main currencies and exchange rates tables style */
+table.wcumcs-currency-table, table.wcumcs-exchange-rates-table {	
+	background: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-collapse: collapse;
+}
+
+
+/* Main currencies and exchange rates tables header row */
+table.wcumcs-currency-table th, table.wcumcs-exchange-rates-table th {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* Main currencies and exchange rates tables data cells and header cells */
+table.wcumcs-currency-table td, table.wcumcs-currency-table th, table.wcumcs-exchange-rates-table td, table.wcumcs-exchange-rates-table th {
+	padding: 10px;
+}
+
+
+/* Main currencies and exchange rates tables data cells */
+table.wcumcs-currency-table td > *, table.wcumcs-exchange-rates-table td > * {
+	width: 100%;
+}
+
+
+/* Main currencies and exchange rates tables "Default currency" text */
+div.wcumcs_default_currency_label, div.wcumcs_default_exchange_label {
+	font-style: italic;
+	text-align: center;
+}
+
+
+/* Main currencies table content */
+table.wcumcs-currency-table tbody {
+	cursor: move;
+}
+
+
+/* Main currencies table drag-and-drop placeholder */
+.wcumcs_currencies_highlight {	
+	background: #fffde4;
+	border: 1px solid #e5e5e5;
+	border-collapse: collapse;
+}
+
+
+/* Exchange rate Update all button */
+.wcumcs-update-all-button{	
+	margin-top: 10px !important;
+}
+
+
+/* Tables disabled inputs and selects */
+.wcumcs-currency-table input[disabled],
+.wcumcs-currency-table select[disabled], 
+.wcumcs-exchange-rates-table input[disabled] {
+	cursor: not-allowed;
+}
+
+
+/* Main currencies table columns widths */
+table.wcumcs-currency-table th.wcumcs_currency_cell_code { width: 7%; }
+table.wcumcs-currency-table th.wcumcs_currency_cell_name { width: 25%; }
+table.wcumcs-currency-table th.wcumcs_currency_cell_symbol { width: 9%; }
+table.wcumcs-currency-table th.wcumcs_currency_cell_position { width: 23%; }
+table.wcumcs-currency-table th.wcumcs_currency_cell_thousand { width: 7%; }
+table.wcumcs-currency-table th.wcumcs_currency_cell_decimal { width: 7%; }
+table.wcumcs-currency-table th.wcumcs_currency_cell_number { width: 10%; }
+table.wcumcs-currency-table th.wcumcs_currency_cell_remove { width: 10%; }
+
+
+/* Exchange rates table columns styling */
+table.wcumcs-exchange-rates-table th.wcumcs_exchange_cell_code { /* width: 10%; */ }
+table.wcumcs-exchange-rates-table th.wcumcs_exchange_cell_name { /* width: 28%; */ }
+table.wcumcs-exchange-rates-table th.wcumcs_exchange_cell_symbol { /* width: 7%; */ }
+table.wcumcs-exchange-rates-table th.wcumcs_exchange_cell_api { /* width: 27%; */ }
+table.wcumcs-exchange-rates-table th.wcumcs_exchange_cell_rate { /* width: 10%; */ }
+table.wcumcs-exchange-rates-table th.wcumcs_exchange_cell_update { /* width: 20%; */ }
+
+
+/* ---------- Currencies and Exchange rates sections styling end ---------- */
+
+
+
+
+/* ---------- Display section start ---------- */
+
+
+span.wcumcs_switcher_theme_option {
+	padding-left: 10px;
+}
+
+span.wcumcs_switcher_theme_option > img {
+	vertical-align: middle;
+	margin-bottom: 2px
+}
+
+
+/* ---------- Display section end ---------- */
+
+
+
+
+/* ---------- Advanced section start ---------- */
+
+
+#wcumcs_change_country_currency_buttons_wrapper { /* buttons wrapper */
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 10px;
+	width: 303px;
+	background-color: #FFF;
+	border-top: 1px solid #eee;
+}
+
+#wcumcs_change_country_currency_save_changes_button { /* save changes button */
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#wcumcs_add_country_button { /* add country button */
+	display: inline-block;
+	text-align: center;
+	margin-right: 10px;
+}
+
+table.wcumcs_countries_currencies_table { /* table */
+	margin: 20px 10px 45px 10px;
+	border-collapse: collapse;
+}
+
+table.wcumcs_countries_currencies_table td.wcumcs_countries_currencies_first_column { /* 1st column */
+	max-width: 120px;
+}
+
+table.wcumcs_countries_currencies_table td.wcumcs_countries_currencies_second_column { /* 2nd column */
+	max-width: 110px;
+}
+
+table.wcumcs_countries_currencies_table td { /* all cells */
+	border: 1px solid #eee;
+	border-collapse: collapse;
+	padding: 10px;
+	background-color: #fff;
+}
+
+table.wcumcs_countries_currencies_table thead td { /* header cells */
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: #FBFBFB;
+	text-align: center;
+}
+
+table.wcumcs_countries_currencies_table tbody td input { /* tbody inputs */
+	max-width: 110px;
+	text-transform: uppercase;
+	text-align: center;
+}  
+
+table.wcumcs_countries_currencies_table tbody td input[disabled] { /* tbody disabled inputs */
+	cursor: not-allowed;
+}  
+
+
+/* ---------- Advanced section end ---------- */
+
+
+
+
+/* ---------- Product/variation edit page start ---------- */
+
+
+/* Products: */
+
+div.wcumcs_additional_prices_product_wrapper {
+	border: 1px solid #eee;
+	border-width: 1px 0;
+	padding: .25em;
+}
+
+h6.wcumcs_additional_prices_product_header {
+	font-size: 14px;
+	padding: 5px 9px;
+	margin: 11px 0 9px 0;
+	line-height: 1.4;
+}
+
+div.wcumcs_additional_prices_product_currency {
+	display: inline-block;
+}
+
+.wcumcs_additional_prices_product_wrapper img.help_tip {
+	padding-top: 4px;
+}
+
+/* Variations: */
+
+div.wcumcs_additional_prices_variation_wrapper {
+	margin-top: 35px;
+	border: 1px solid #eee;
+	border-width: 1px 0;
+	padding: .25em;
+}
+
+h6.wcumcs_additional_prices_variation_header {
+	font-size: 14px;
+	padding: 5px 0 10px 0;
+	margin: 11px 0 9px 0;
+	line-height: 1.4;
+}
+
+div.wcumcs_additional_prices_variation_currency {
+	display: inline-block;
+	margin: 0 105px 9px 0;
+}
+
+.wcumcs_additional_prices_variation_wrapper label[for^="_wcumcs_regular_price_"], .wcumcs_additional_prices_variation_wrapper label[for^="_wcumcs_sale_price_"] {
+    font-size: 12px;
+	width: 150px;
+	float: left;
+	padding-top: 5px;
+}
+
+.wcumcs_additional_prices_variation_wrapper input[id^="_wcumcs_regular_price_"], .wcumcs_additional_prices_variation_wrapper input[id^="_wcumcs_sale_price_"] {
+    display: inline-block;
+	float: left;
+	width: 107px !important;
+}
+
+.wcumcs_additional_prices_variation_wrapper img.help_tip {
+	padding-top: 10px;
+}
+
+
+/* ---------- Product/variation edit page end ---------- */
+
+
+
+
+/* ---------- Coupon edit page start ---------- */
+
+div.wcumcs_additional_coupon_values_wrapper {
+	border: 1px solid #eee;
+	border-width: 1px 0;
+	padding: .25em;
+}
+
+h6.wcumcs_additional_coupon_values_header {
+	font-size: 14px;
+	padding: 5px 9px;
+	margin: 11px 0 9px 0;
+	line-height: 1.4;
+}
+
+.wcumcs_additional_coupon_values_wrapper img.help_tip {
+	padding-top: 4px;
+}
+
+p.wcumcs_additional_coupon_values_not_available {
+	display: block;
+}
+
+div.wcumcs_additional_coupon_values_available_wrapper {
+	display: none;
+}
+
+div.wcumcs_additional_coupon_values_currency {
+	display: inline-block;
+}
+
+
+/* ---------- Coupon edit page end ---------- */
+

@@ -1,0 +1,602 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "WP Migrate DB"
+msgstr ""
+
+#. Short description.
+msgid "Migrates your database by running find &amp; replace on URLs and file paths, handling serialized data, and saving an SQL file."
+msgstr ""
+
+#. Screenshot description.
+msgid "Main screen"
+msgstr ""
+
+#. Screenshot description.
+msgid "Settings tab"
+msgstr ""
+
+#. Screenshot description.
+msgid "Saving the exported database"
+msgstr ""
+
+#. Found in description list item.
+msgid "Push and pull your databases"
+msgstr ""
+
+#. Found in description list item.
+msgid "Find &amp; replace that handles serialized data"
+msgstr ""
+
+#. Found in description list item.
+msgid "Backups"
+msgstr ""
+
+#. Found in description list item.
+msgid "Export your database"
+msgstr ""
+
+#. Found in description list item.
+msgid "Select which tables to migrate"
+msgstr ""
+
+#. Found in description list item.
+msgid "Filter out post types"
+msgstr ""
+
+#. Found in description list item.
+msgid "Exclude useless data"
+msgstr ""
+
+#. Found in description list item.
+msgid "Save migration profiles"
+msgstr ""
+
+#. Found in description list item.
+msgid "Phenomenal email support"
+msgstr ""
+
+#. Found in description list item.
+msgid "Stress tested on massive databases"
+msgstr ""
+
+#. Found in description list item.
+msgid "Solid security"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://deliciousbrains.com/wp-migrate-db-pro/doc/media-files-addon/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=desc&amp;utm_campaign=freeplugin\">Media Files addon</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://deliciousbrains.com/wp-migrate-db-pro/doc/cli-addon/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=desc&amp;utm_campaign=freeplugin\">CLI addon</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"https://deliciousbrains.com/wp-migrate-db-pro/doc/multisite-tools-addon/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=desc&amp;utm_campaign=freeplugin\">Multisite Tools addon</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "https://www.youtube.com/watch?v=m8oScnEK5y0"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Migrate DB exports your database as a MySQL data dump (much like phpMyAdmin), does a find and replace on URLs and file paths, handles serialized data, then allows you to save it to your computer as an SQL file. To complete the migration, you need to use a database management tool (e.g. phpMyAdmin) to import the SQL file to your database, replacing your existing database. It is perfect for developers who need to migrate fresh data from the production site to their local install, or migrate their locally developed site to a staging or production server."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WP Migrate DB handles serialized data (both arrays and objects) by unserializing the data and going through it, identifying strings and running a find &amp; replace on them. Once it has gone through all the data, it serializes it again and sticks it back in the database."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Example: <code>s:5:\"hello\"</code> becomes <code>s:11:\"hello world\"</code>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>PRO Version with Email Support and More Features</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "See the video below or <a href=\"http://deliciousbrains.com/wp-migrate-db-pro/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=desc&amp;utm_campaign=freeplugin\">visit the web site</a> to learn more about the pro version."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "https://www.youtube.com/watch?v=fHFcH4bCzmU"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Use WordPress' built-in installer"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Access the \"Migrate DB\" menu option under Tools (or under Settings on multsite intallations)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: \"Migrate\" button renamed to \"Export\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Uses WP_Filesystem instead of direct PHP filesystem functionality where possible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Remove Find &amp; Replace row icon is now a little dimmer to reduce UI clutter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Compatibility with WordPress 4.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added more diagnostic info to facilitate debugging"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Global JS variables moved to single global object to avoid conflicts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: WP Migrate DB and Pro can be activated at the same time when activating plugins in bulk or via WP-CLI"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: <code>BINARY</code> data not exported properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: <code>BIT</code> data not exported properly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: When <code>post_max_size</code> is set to 0 (unlimited), <code>wpmdb_bottleneck</code> is broken"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug Fix: Saved Profiles link is broken in certain situations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: <a href=\"https://deliciousbrains.com/wp-migrate-db-pro/doc/cli-export-subcommand/\">WP-CLI export subcommand</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Quick copy find textbox value to replace textbox by clicking arrow icon in between (hat tip Jonathan Perlman)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added filters to hook into find &amp; replace routine and deal with encoded data (<a href=\"https://github.com/deliciousbrains/wp-migrate-db-pro-tweaks/blob/master/wp-migrate-db-pro-tweaks.php#L316-L413\">example</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Greatly reduced data passed through each HTTP request for better security and reliability"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Massive overhaul of input sanitization for better security"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Add <code>_mig_</code> prefix to wpmdb_alter_statements table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Cleanup wpmdb_alter_statements tables from failed migrations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Show dimmed remove icons in find &amp; replace rows to indicate they can be removed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Dim remove icons next to saved profiles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Better error message when empty response received from remote server"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Added diagnostic info to facilitate debugging and decrease time to resolution for support requests"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Warning notice when <code>WP_HTTP_BLOCK_EXTERNAL</code> constant is set to true"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Leave it to WordPress core to convert tables to utf8mb4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Workaround to fix issues with Siteground's staging environments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Connection URL with space(s) in beginning failing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Cancelling a gzipped Export does not remove file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Unusual table names causing regular expressions to fail"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Preserving options not working when default subsite is not 1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: NAN% shown at beginning of a migration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Migration progress bar is overflowing the scale, passing 100%"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Custom post type links broken after migration with Compatibility Mode enabled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Saving a new profile does not change the URL to that saved profile URL"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: breadcrumb-style UI for saved profiles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Brazilian Portugese translation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security: Added .htaccess to backup folder to help prevent direct downloads"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Security: False values not included in signature"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Compatibility with TGM Plugin Activation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Fixed hundreds of PHP Code Sniffer warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Switch to <code>update_site_option()</code> and <code>get_site_option()</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Cleaner and more instructive error message on JSON decoding failure"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: New hooks to massage data before and after find &amp; replace"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Common server security rules better accommodated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Better compatibility with SSL on WP Engine"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Minify all the Javascripts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Use PHP's DIRECTORY_SEPARATOR instead of our own constant"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Updated tons of translation strings to be translator-friendly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Find &amp; replace field error messages could suggest removing the fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Download button for Diagnostic Info &amp; Error Log"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: 404 errors after successful migrations due to caching"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Multisite exports broken on PHP &lt; 5.4.7"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Using relative paths for file includes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Typing new profile name does not select \"Create new profile\" option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Find &amp; replace field errors stick around even after removing fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <code>wpmdb_error_log</code> option is auto loading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Inconsistent stripping of slashes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Spinner is inconsistent with WP 3.8+ spinner"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Apostrophe in path not being handled"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Inappropriate use of <code>htmlentities()</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: The table tooltip still shows during the media files migration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Import/Export issues between MySQL 5.1 and 5.5+"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Notice error on Updates dashboard page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Signature verification error when local and remote plugins are different versions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Find &amp; replace handle icon is rendering poorly"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: PHP Notice: Undefined variable: safe_mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Fatal error: Cannot use object of type WP_Error as array in <code>verify_download()</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Updated the migration UI to include a detailed progress bar, time elapsed, pause and cancel buttons and more!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Option to exclude transients (temporary cached data)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Migration profiles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Setting to configure the maximum request size (how much data is exported in a given HTTP request)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improvement: Unlimited find &amp; replace fields with drag &amp; drop reordering"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Language support! Thanks to an awesome <a href=\"https://github.com/bradt/wp-migrate-db/pull/19\">pull request</a> from <a href=\"https://github.com/rafaelfunchal\">Rafael Funchal</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New Language: Brazilian Portugese"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"https://github.com/bradt/wp-migrate-db/issues/16\">Added filter for the filename of the exported file</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"https://github.com/bradt/wp-migrate-db/issues/18\">Spam commentmeta included when \"Do not export spam comments\" checked</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"https://github.com/bradt/wp-migrate-db/issues/20\">Fatal error method <code>error</code> does not exist</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"https://github.com/bradt/wp-migrate-db/issues/15\">Table names with dashes not exporting</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"https://github.com/bradt/wp-migrate-db/issues/13\">Find &amp; replace is case-sensitive but shouldn't</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "<a href=\"http://deliciousbrains.com/wp-migrate-db-pro/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=changelog&amp;utm_campaign=freeplugin\">Pro version has arrived!</a> Added some info to the sidebar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated required version to WordPress 3.0+"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"https://github.com/bradt/wp-migrate-db/issues/11\">Does not handle serialized objects</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"https://github.com/bradt/wp-migrate-db/issues/8\">Admin menu disappears when DISALLOW_FILE_MODS is true</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"https://github.com/bradt/wp-migrate-db/issues/5\">Duplicate records on export</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Updated spinner image for HiDPI displays"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed deprecated error notices when debug mode is on"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"https://github.com/bradt/wp-migrate-db/issues/3\">Exports views as tables</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatibility tested with WordPress 3.5"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved screenshots to /assets folder and updated them to support retina"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added sidebar including author profile and survey to gauge interest for a pro version"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed WP App Store installer - not allowed in WP.org repo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: More than 4x faster than version 0.3 due to find &amp; replace improvements"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Option to turn off replacing GUIDs"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Option to exclude spam comments and post revisions from the export"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Option to save file with gzip compression"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Added date and time to file names"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: Display path to SQL file on the server"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New: WP App Store installer integration"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Notices and warnings displayed when WP_DEBUG is on"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"http://plugins.trac.wordpress.org/ticket/1430\">Null formatting error</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"http://plugins.trac.wordpress.org/ticket/1431\">Deprecated capability</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: Serialized string lengths incorrect when string contains double quotes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix: <a href=\"http://wordpress.org/support/topic/plugin-wp-migrate-db-breaks-export?replies=1\">Breaks Export</a>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved to WordPress.org hosting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved menu link from \"Settings\" to \"Tools\""
+msgstr ""
+
+#. Found in changelog list item.
+msgid "The random string of characters no longer appears in the filename on save."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First release"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why wouldn't I just use WordPress' built-in XML export/import to migrate my site?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will you migrate my site for me?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does the plugin support multisite?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does the plugin migrate files as well?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why do I end up with a wp-login.php download instead of the exported SQL file?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does the plugin handle serialized data?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What are the requirements?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do you offer email support?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "WP Migrate DB will migrate your entire WordPress database, WordPress' built-in tools will not. For more details, please see our blog post, <a href=\"https://deliciousbrains.com/wordpress-xml-export-import-vs-wp-migrate-db-pro/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=faq&amp;utm_campaign=freeplugin\">WordPress XML Export/Import vs. WP Migrate DB Pro</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Sorry, but we do not offer site migration services at the moment."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, but the <a href=\"https://deliciousbrains.com/wp-migrate-db-pro/doc/multisite-tools-addon/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=faq&amp;utm_campaign=freeplugin\">Multisite Tools addon</a> for the <a href=\"http://deliciousbrains.com/wp-migrate-db-pro/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=faq&amp;utm_campaign=freeplugin\">pro version</a> does a lot more with multisite like migrating a subsite as a single-site install."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, it only operates on the database. The pro version's <a href=\"https://deliciousbrains.com/wp-migrate-db-pro/doc/media-files-addon/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=faq&amp;utm_campaign=freeplugin\">Media Files addon</a> allows you to migrate media files."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It is likely you have a download manager plugin or extension installed in your web browser. You will need to disable it for the SQL download to work properly."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yep, it will run a find &amp; replace on your serialized data and migrate it without corrupting it. See <a href=\"https://deliciousbrains.com/wp-migrate-db-pro/doc/serialized-data/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=faq&amp;utm_campaign=freeplugin\">our documentation</a> for details."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "They are the same as the <a href=\"https://deliciousbrains.com/wp-migrate-db-pro/pricing/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=faq&amp;utm_campaign=freeplugin#requirements\">requirements for WP Migrate DB Pro</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you upgrade to <a href=\"http://deliciousbrains.com/wp-migrate-db-pro/?utm_source=wordpress.org&amp;utm_medium=web&amp;utm_content=faq&amp;utm_campaign=freeplugin\">WP Migrate DB Pro</a>, we will gladly provide you with email support. We take pride in delivering exceptional customer support. We do not provide email support for the free version."
+msgstr ""

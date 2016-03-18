@@ -1,0 +1,5 @@
+- hosts: api
+  remote_user: clienfvwyf
+  tasks:
+  - name: git clone or pull
+    git: repo=ssh://git@github.com/plusplusminus/kvd.git dest=public_html/kvd/staging/ accept_hostkey=yes force=yes

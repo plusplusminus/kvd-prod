@@ -1,0 +1,67 @@
+{% block content %}
+</div>
+<div class="content-container">
+
+	{% include "community/community-navigation" %}
+
+	<div class="single-text-holder img-container holderjs" data-background-src="?holder.js/1600x350?fg=efefef">
+		<div class="container-fluid">
+			<div class="row">			
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<br><br><br><br>
+					<h1>Community at Singita<br><small>Modern conservation requires a keen focus upon keeping tourism, the community and conservation in a constructive and positively enhancing balance. The health and survival of each of these aspects is crucial to the survival of the whole.</small></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container">
+	<br><br>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Communities close to Singita reserves are key role-players in preserving the integrity of wilderness area and their wildlife.It is therefore important that they understand and benefit from the existence of the reserves.  Singita’s long-term, broad community development objective is therefore to assist communities to thrive, both economically and socially.</p>
+					<p>Singita employs 1 100 staff within its 5 regions and deliberately maximises monthly purchases from local enterprises. In this way Singita plays a role in strengthening the local economy.</p>
+
+				</div>
+				<div class="col-md-6">			
+					<p>In addition to this, the Community Development teams on each property co-ordinate active support for development initiatives.</p>	 
+					<p>Community development programmes have 4 main objectives: well educated children; the development of small enterprises; assisting government in its effort to provide clean drinking water; and an enhanced awareness of conservation and sustainable daily living practices among local community members.</p>
+					<p>The programmes described below, serve to illustrate the types of programmes that are in place on the various properties.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			{% include "community/community-help" %}
+		</div>
+	</div><!--/.row-->
+	
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+	  {% for community in model.communities %}
+	  <div class="col-md-{{ community.thumb-col }} col-md-offset-{{ community.col-offset }}">
+	    <div class="thumbnail">
+	      <a href="community/{{ community.link }}"><img class="img-responsive" src="holder.js/800px{{community.thumb-height}}?fg=efefef"></a>
+	    </div>
+	  </div>
+	  <div class="col-md-{{ community.text-col }}">
+	  	<a href="/regions/{{ community.region-link }}">{{ community.region }}</a>
+        <h2><a href="/community/{{ community.link }}">{{ community.title }}</a><br><small>
+        <p class="lead">{{ community.intro }}</p></small></h2>
+        <p><a href="community/{{ community.link }}" class="btn btn-link" role="button">More <i class="fa fa-long-arrow-right"></i></a></p>
+	  </div>
+	  <div class="{{ community.row-clear }}"></div>
+	  {% endfor %}
+	</div><!--/.row-->
+	<br>
+</div><!--/.container-fluid-->
+{% include "community/community-help-modal" %}
+{% endblock %}
