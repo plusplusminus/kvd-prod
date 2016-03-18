@@ -1,0 +1,95 @@
+# Translation of Accessible OneTwo in English (UK)
+# This file is distributed under the same license as the Accessible OneTwo package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-07-15 09:28:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Accessible OneTwo\n"
+
+#. Theme Name of the plugin/theme
+msgid "Accessible OneTwo"
+msgstr "Accessible OneTwo"
+
+#. Description of the plugin/theme
+msgid "Accessible child theme for the WordPress Twenty Twelve theme."
+msgstr "Accessible child theme for the WordPress Twenty Twelve theme."
+
+#: header.php:50
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: header.php:49
+msgid "Menu"
+msgstr "Menu"
+
+#: footer.php:18
+msgid "Return to top of page"
+msgstr "Return to top of page"
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: footer.php:17
+msgid "Semantic Personal Publishing Platform"
+msgstr "Semantic Personal Publishing Platform"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content.php:57
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:53
+msgid "About %s"
+msgstr "About %s"
+
+#: content.php:46
+msgid "Edit"
+msgstr "Edit"
+
+#: content.php:40
+msgid "Pages:"
+msgstr "Pages:"
+
+#: content.php:39
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:28
+msgid "% Replies"
+msgstr "% Replies"
+
+#: content.php:28
+msgid "1 Reply"
+msgstr "1 Reply"
+
+#: content.php:28
+msgid "Leave a reply"
+msgstr "Leave a Reply"
+
+#: content.php:23
+msgid "Permalink to %s"
+msgstr "Permalink to %s"
+
+#: content.php:14
+msgid "Featured post"
+msgstr "Featured post"
+
+#. Author of the plugin/theme
+msgid "Daniel Davis"
+msgstr "Daniel Davis"
+
+#. Author URI of the plugin/theme
+msgid "http://daniemon.com/"
+msgstr "http://daniemon.com/"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/tagawa/Accessible-OneTwo"
+msgstr "https://github.com/tagawa/Accessible-OneTwo"

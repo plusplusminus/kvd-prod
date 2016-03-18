@@ -1,0 +1,287 @@
+{% block content %}
+</div>
+<div class="content-container">
+
+{% include "lodge-navigation" %}
+	
+	<div id="carousel-single-lodge" class="carousel slide" data-ride="carousel" data-interval="false">
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active">
+		    <div class="img-container holderjs" data-background-src="?holder.js/1600x750?fg=efefef">
+		    	<div class="container">
+					<div class="row">			
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<div>
+								<br><br><br><br><br><div class="text-center">
+								<i class="mg mg-3x map-za"></i>
+							</div>
+							<a href="/regions/sabi"><small>Singita Sabi Sand - South Africa</small></a>
+							<h1>Singita Ebony Lodge<br><small>An idyllic family retreat</small></h1>
+							<br>
+							<p class="lead">As the original Singita lodge, Ebony stands steadfast amongst enormous trees on the banks of the Sand River in the heart of South Africa’s ‘big cat country.’</p>
+						</div>
+					</div>
+				</div>
+		    </div>
+		</div>
+	  </div><!--/.carousel-inner-->
+
+	  <!-- Controls -->
+	  
+	    <span class="explore text-center">
+	    	<a href="#" data-toggle="modal" data-target="#modalLodgeGallery" role="button">
+	    		<i class="fa fa-2x fa-file-image-o"></i><br>
+	    		<small>Visually Explore Ebony Lodge</small>
+	    		<i class="fa fa-2x fa-long-arrow-right"></i>
+			</a>
+	    </span>
+	  
+	</div><!--/.carousel-->
+
+
+	<div class=" text-center single-explore-arrow">	
+		<a href="#explore-top"><p class="small">EXPLORE SINGITA EBONY LODGE</p><i class="fa fa-angle-down fa-2x"></i></a>
+		<br><br>
+	</div>
+
+</div><!--/.content-container-->
+
+<a id="explore-top"></a>
+
+
+<div class="container-fluid">
+	<br>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+				<br>
+					<p class="lead text-center">A blend of European heritage and African boldness welcomes visitors with the down-to-earth warmth of a much-loved family home. Spacious interiors are styled with a varied mix of rich colours, and inviting textures and layers, making Singita Ebony Lodge an idyllic retreat.</p><br>
+					<hr>
+					<div class="row">
+						<div class="col-md-4 text-center">
+							<p><strong>Accommodation Options:</strong></p>
+							<ul class="list-unstyled">
+								<li><i class="fa fa-bed"></i> 10 x 1-Bedroom Suites</li>
+								<li><i class="fa fa-home"></i> 2 x 2-Bedroom Family Suites</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<br>
+							<a class="btn btn-primary btn-lg btn-block">Enquire Now</a>
+						</div>
+							<div class="col-md-4 text-center">
+							<strong>Starting from</strong>
+							<span class="lead"><br><em>$15 000</em></span><br>
+							<small><a href="#" data-toggle="modal" data-target="#modalRates"><em>Rates details</em></a></small>
+						</div>
+					</div>
+					<hr>
+					<br>
+					<div class="row">
+						<div class="col-md-4">
+							<h3>Ebony Lodge<br>Details<br><small>Nullam quis risus eget urna mollis ornare vel eu leo.</small></h3>
+							<br>
+						</div>
+						<div class="col-md-8">
+							<ul class="list-inline nav-justified">
+							<br>
+								{% include "/lodges/lodge-single/menu-details-icons" %}
+							</ul>
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-md-4">
+							<h3>What to see and do at Ebony Lodge<br><small>Morbi leo risus, porta ac consectetur acsent.</small></h3>
+							<br>
+						</div>
+						<div class="col-md-8">
+							<ul class="list-inline nav-justified">
+							<br>
+								{% include "/lodges/lodge-single/menu-activities-icons" %}
+							</ul>
+							<div class="text-center">
+								<br>
+								<div class="collapse" id="collapseActivities">
+									<div class="row">
+										{% include "/lodges/lodge-single/menu-activities-activities-icons" %}
+									</div>    
+									<br><br>
+								</div>
+								<a class="btn btn-link" role="button" data-toggle="collapse" href="#collapseActivities">More <i class="fa fa-angle-down"></i></a>
+								<br><br>
+							</div>
+						</div>
+					</div>
+					<hr>
+				</div>
+			</div>
+			
+			<br>
+			
+			{% include "/lodges/lodge-single/feed" %}
+
+		</div>
+	</div>
+</div>
+<div class="container">
+
+<br>
+<hr>
+<br>
+
+<div class="row">
+	<div class="col-md-4">
+		<h3>Guest<br>Testimonials</h3>
+		<br>
+	</div>
+	<div class="col-md-8 text-center">
+		
+		<div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+				<img class="img-responsive img-circle" src="holder.js/90x90?fg=efefef" style="margin: auto;">
+				<blockquote>
+				  <p class="lead">“Best place I've been to”</p>
+				  <p>WOW what an experience from start to finish. Had my 50th birthday here during a five night stay. Everything and I mean everything was fantastic. Wonderful room with a spectacular view down the Sand river with views of elephants crossing the river. Food and matching wines of a spectacular quality and taste. Service excellent. Game drives a joy. Not enough superlatives to describe this place. Thanks to all the staff particularly Cherie, Leon, Themba and Auto. Thanks to Tom the manager for joining me on a run one day.</p>
+
+				<p>It's so good that on our return we booked to go again for Christmas this year.</p>
+				  <footer>January 22, 2013</footer>
+				</blockquote>
+				<br><br>
+			</div>
+		    
+		    <div class="item">
+				<img class="img-responsive img-circle" src="holder.js/90x90?fg=efefef" style="margin: auto;">
+				<blockquote>
+				  <p class="lead">“My favorite place in the world”</p>
+				  <p>We spent 25 days at Singita Pamushana Lodge on our last trip to Zimbabwe. It felt like three days. I love it there - it feels like home. Need I say more? Just make sure to go fishing for breem, and have the chef prepare it for you at dinner. It's a real treat. Everyone, and everything, at Pamushana is amazing.</p>
+
+				<p>It's so good that on our return we booked to go again for Christmas this year.</p>
+				  <footer>Carreradriver, Laguna Beach, CA - February 8, 2012</footer>
+				</blockquote>
+				<br><br>
+		    </div>
+
+	        <div class="item">
+	    		<img class="img-responsive img-circle" src="holder.js/90x90?fg=efefef" style="margin: auto;">
+	    		<blockquote>
+	    		  <p class="lead">“Hidden Gem”</p>
+	    		  <p>If you're looking for tasteful luxury, inspired cuisine, fine wines, spectacular wildlife and surroundings and the warmest people you will be blessed to meet, seek no further! We also enjoyed the most authentic rural cultural tour I have experienced anywhere in Africa. There are many compelling reasons for including Singita Pamushana Lodge on your itinerary.</p>
+
+	    		  <footer>Malcolm A, Victoria Falls, Zimbabwe - Stayed August 2012, travelled with friends</footer>
+	    		</blockquote>
+	    		<br><br>
+	        </div>
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-testimonials" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-testimonials" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+
+	</div>
+</div><!--/.row-->
+
+<br>
+<hr>
+<br>
+
+<div class="row">
+	<div class="col-md-4">
+		<h3>Awards &amp;<br>Accolades</h3>
+		<br>
+	</div>
+	<div class="col-md-8">
+		<div class="row">
+			<div class="col-md-3 text-center">
+				<i class="fa fa-3x fa-diamond"></i><br><br>
+				<p class="lead"><em>Condé Nast Traveller</em></p>
+				<strong>681 World’s Best Places to Stay: Hotels, Resorts, Cruise Lines</strong><br>
+				<em>Gold List 2010 USA</em>
+			</div>
+
+			<div class="col-md-3 text-center">
+				<i class="fa fa-3x fa-anchor"></i><br><br>
+				<p class="lead"><em>Travel + Leisure Magazine</em></p>
+				<strong>Top 100 Hotels &amp; No 2 in Africa &amp; the Middle East</strong><br>
+				<em>World’s Best Awards 2010 USA</em>
+			</div>
+
+			<div class="col-md-3 text-center">
+				<i class="fa fa-3x fa-bell-o"></i><br><br>
+				<p class="lead"><em>Travel + Leisure Magazine</em></p>
+				<strong>Ranked No. 16</strong><br>
+				<em>500 World’s Best Hotels Awards 2010 USA</em>
+			</div>
+
+			<div class="col-md-3 text-center">
+				<i class="fa fa-3x fa-camera-retro"></i><br><br>
+				<p class="lead"><em>Condé Nast Traveller</em></p>
+				<strong>Ranked No.3 in Top 50 Resorts in Africa</strong><br>
+				<em>Reader’s Choice 2010 USA</em>
+			</div>
+		</div>
+		<div class="collapse" id="collapseExample">
+		<br><br>
+		<ul>
+			<li><strong>Ranked No.8 in Top 100 Hotels in the World</strong>, Reader’s Choice 2010 USA -&nbsp;<em>Condé Nast Traveller</em></li>
+			<li><strong>Ranked No. 2 in Top 100 Hotels Overall</strong>, World’s Best Awards 2011 USA -&nbsp;<em>Travel + Leisure Magazine</em></li>
+			<li><strong>Ranked No. 10 Best Hotels in the Middle East,&nbsp;Africa and the Indian Ocean/Overseas Leisure Hotels</strong>, Readers’ Travel Awards&nbsp;2011 UK -&nbsp;<em>Condé Nast Traveller</em></li>
+			<li><strong>Ranked 5th in the Top 20 International Hideaways category (Boulders)</strong>, Readers’ Choice Awards 2011 USA -&nbsp;<em>Andrew Harper’s Hideaway Report</em></li>
+			<li><strong>Ranked among Top 3 Hotels for Service in Africa, the Middle East and the Indian Ocean</strong>, Gold List 2012 UK -&nbsp;<em>Condé Nast Traveller</em></li>
+			<li><strong>Ranked among the top 5 Hotels in Africa and the Middle East</strong>, Gold List&nbsp;2012 USA -&nbsp;<em>Condé Nast Traveller</em></li>
+			<li><strong>Listed + No. 1 in South Africa</strong>, 500 World’s Best Hotels Awards 2012 USA -&nbsp;<em>Travel+ Leisure Magazine</em></li>
+			<li><strong>No.1 Resorts and Lodges in Africa and the Middle East (No. 4 worldwide)</strong>, World’s Best Service 2012 USA -&nbsp;<em>Travel+ Leisure Magazine</em></li>
+			<li><strong>Ranked among the Top Ten (No. 10)</strong>, World’s Best Awards&nbsp;2012 USA -&nbsp;<em>Travel + Leisure Magazine</em></li>
+			<li><strong>Ranked No. 9 in Africa, the Middle East and the Indian Ocean</strong>, Readers’ Travel Awards&nbsp;2012 UK -&nbsp;<em>Condé Nast Traveller</em></li>
+			<li><strong>Ranked among World’s Best Hotels for Families</strong>, World’s Best Awards&nbsp;2012 USA -&nbsp;<em>Travel + Leisure Magazine</em></li>
+			<li><strong>Ranked No. 32 in Top 100 Hotels Overall and No. 3 in Africa and the Middle East</strong>, Readers’ Choice Awards&nbsp;2012 USA -&nbsp;<em>Condé Nast Traveller</em></li>
+			<li><strong>Ranked No. 10,</strong> World’s Best Awards 2013 USA – <em>Travel + Leisure Magazine</em></li>
+			<li><strong>Ranked no. 1</strong>, Readers’ Choice Awards 2014 USA – Top Safari Lodges – &nbsp;<em>Andrew Harper’s Hideaway Report</em></li>
+			<li><strong>Ranked no. 3</strong>, Readers’ Choice Awards 2014 USA – Top International Hideaways – &nbsp;<em>Andrew Harper’s Hideaway Report</em></li>
+			<li><strong>Ranked no. 1</strong>, World’s Best Awards 2014 USA – &nbsp;<em>Travel + Leisure Magazine</em></li>
+			<li><strong>Listed</strong>, Gold List 2014 – Top 10 Best Africa Safari Lodges and Wilderness Spots 2014 (USA) – &nbsp;<em>Condé Nast Traveler Magazine</em></li>
+			<li><strong>Listed</strong>, Best of the Best Awards 2014 (USA) – &nbsp;<em>Robb Report</em></li>
+			<li><strong>Listed</strong>, Top 100 Resorts 2014 (USA) – &nbsp;<em>Robb Report</em></li>
+			<li><strong>Top 10 in Middle East, Africa &amp; Indian Ocean,</strong> Readers’ Travel Awards 2014 (UK) – &nbsp;<em>Condé Nast Traveller Magazine</em></li>
+			<li><strong>Listed</strong>, Hot List 2014 (UK) – <em>Conde Nast Traveller Magazine</em></li>
+			<li><strong>Ranked no. 2 in Africa</strong>, Readers’ Choice Awards 2014 ,&nbsp;<em>Condé Nast Traveler Magazine (USA)</em></li>
+			<li><strong>Ranked no. 4 in the World</strong>,&nbsp;Readers’ Choice Awards 2014 ,&nbsp;<em>Condé Nast Traveler Magazine (USA)</em></li>
+		</ul>
+		</div>
+
+		<div class="row">
+			<div class="text-center">
+				<br><br>
+				<a class="btn btn-link" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">More <i class="fa fa-angle-down"></i></a>
+			</div>
+		</div>
+
+		
+	</div>
+</div>
+
+{% include "/lodges/lodge-single/modal-details-rates" %}
+{% include "/lodges/lodge-single/modal-details-more" %}
+{% include "/lodges/lodge-single/modal-activities-spa" %}
+{% include "/lodges/lodge-single/modal-lodge-gallery" %}
+
+{% endblock %}

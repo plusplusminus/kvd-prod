@@ -1,0 +1,111 @@
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+    margin: 0 0 3rem 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 3rem 3rem;
+}
+
+.alignleft {
+    float: left;
+    margin: 0 3rem 3rem 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 0 0 3rem 3rem;
+}
+
+a img.alignnone {
+    margin: 0 0 3rem 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 0 3rem 3rem 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: darken($c1,10%);
+    max-width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 0 3rem 3rem 0;
+}
+
+.wp-caption.alignleft {
+    margin: 0 3rem 3rem 0;
+}
+
+.wp-caption.alignright {
+    margin: 0 0 3rem 3rem;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 1rem 0;
+    max-width: 100%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption {
+    margin: 0;
+    padding: 0 0 1rem;
+}
+.textwidget img{
+    margin: 1rem 0;
+}
+
+.bypostauthor {
+    background: inherit;
+}
+
+/* ----------------------------------------------------------------------------
+ * Recommended sizes
+ * ------------------------------------------------------------------------- */
+ .size-auto,
+ .size-full,
+ .size-large,
+ .size-medium,
+ .size-thumbnail {
+    max-width: 100%;
+    height: auto;
+ }
+
+/* ----------------------------------------------------------------------------
+ * Responsive
+ * ------------------------------------------------------------------------- */
+.wp-caption .wp-caption-text,
+.gallery-caption{
+
+     @include r(240)  { font: 300 1.4rem/1.8rem sans-serif; }
+     @include r(320)  { font: 300 1.55rem/1.8 sans-serif;   }
+     @include r(480)  { font: 300 1.8rem/1.8 sans-serif;    }
+     @include r(768)  { font: 300 1.9rem/1.7 sans-serif;    }
+     @include r(1024) { font: 300 2rem/3.1rem sans-serif;   }
+     @include r(1280) { font: 300 2rem/3.1rem sans-serif;   }
+
+ }

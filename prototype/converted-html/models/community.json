@@ -1,0 +1,52 @@
+{
+	"communities": [
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "",
+			"title": "Pre-school Development",
+			"link": "community-sabi",
+			"region-link": "sabi",
+			"region": "Singita Sabi Sand",
+			"intro": "In collaboration with South Africa’s Education Department, Singita supports a pre-school development programme at 10 local pre-schools. The objectives of this programme are to ensure that children are well prepared for formal schooling when they begin their studies at age six years,  and in the process, are assisted in developing a love of reading."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "clearfix space",
+			"title": "Singita School of Cooking",
+			"link": "community-kruger",
+			"region-link": "kruger",
+			"region": "Singita Kruger National Park",
+			"intro": "The Singita School of Cooking, located on site at Singita Kruger National Park’s staff village, was established to encourage the development of culinary skills and employment opportunities among local youth. This 18 month programme enables selected students to gain a nationally recognized Professional Cookery Qualification."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "",
+			"title": "Singita Environmental Centre",
+			"link": "community-grumeti",
+			"region-link": "grumeti",
+			"region": "Singita Grumeti",
+			"intro": "The Singita Grumeti Environmental Education Centre is a hive of activity throughout the year’s four school terms. The Centre, established in collaboration with Tanzania’s Education Department, offers 12 secondary school learners, and 2 of their teachers, a 5 day training course aimed at enhancing their understanding of nature and the role they play in preserving it."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "220",
+			"row-clear": "clearfix space",
+			"title": "Child Supplementary Feeding Programme",
+			"link": "community-pamushana",
+			"region-link": "pamushana",
+			"region": "Singita Pamushana",
+			"intro": "As part of Singita’s dedication to empowering and supporting the local community, it has undertaken a massive feeding programme ensuring that children receive the nourishment they need resulting in better school attendance and better prospects for their futures."
+		}
+	]
+}

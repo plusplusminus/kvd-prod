@@ -1,0 +1,20 @@
+.sbHolder { background: #eeeeee; border: 1px solid #eeeeee; height: 36px; display:block; width: 100%; }
+.sbSelector { display: block; height: 36px; left: 0; line-height: 36px; outline: none; overflow: hidden; position: absolute; text-indent: 15px; top: 0; width: 100%; font-size: 13px; font-family: "kepler-std-display", sans-serif; font-weight: 400; font-style: italic; letter-spacing: 0.1em;}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover { color: #000; outline: none; text-decoration: none; }
+.sbSelector.sbFocus:link, .sbHolder:focus .sbSelector:link { color: #222 }
+.sbToggle { background-color: #eeeeee; background-image: url(../images/down-arrow.png); background-position: center center; background-repeat: no-repeat; background-size: 9px auto; display: block; height: 36px; outline: none; position: absolute; right: 0; top: 0; width: 34px; }
+.sbHolderDisabled { background-color: #3C3C3C; border: solid 1px #515151; }
+.sbOptions { background-color: #fff; border-bottom: 1px solid #eeeeee; border-right: 1px solid #eeeeee; border-left: 1px solid #eeeeee; list-style: none; margin: 0; padding: 0; left: 0; position: absolute; top: 36px; width: 100%; z-index: 1; overflow-y: auto; }
+.sbOptions li { height: 36px; line-height: normal; margin-bottom: 0; padding: 0; position: relative; font-size: 13px; font-family: "kepler-std-display", sans-serif; font-weight: 400; font-style: italic; letter-spacing: 0.1em; }
+.sbOptions a { border-bottom: 1px solid #eeeeee; display: block; height: 100%; outline: medium none; padding: 10px 26px 0 0; position: relative; text-indent: 14px; }
+.sbOptions li span { content: ""; background-image: url(../images/select-close.png); background-repeat: no-repeat; background-position: center center; background-size: 11px auto; position: absolute; right: 0; top: 0; height: 100%; width: 31px; transition: all 0.4s linear 0s; -o-transition: all 0.4s linear 0s; -webkit-transition: all 0.4s linear 0s; -moz-transition: all 0.4s linear 0s; }
+.sbOptions a:link, .sbOptions a:visited { color: #222; text-decoration: none; }
+.sbHolder .sbOptions a:hover, .sbHolder .sbOptions a:focus, .sbHolder .sbOptions a.sbFocus { background: #eeeeee }
+/*.sbOptions a:hover:after, .sbOptions a:focus:after, .sbOptions a.sbFocus:after { opacity: 1 }*/
+.sbOptions li.last a { border-bottom: none; }
+.sbOptions .sbDisabled { border-bottom: dotted 1px #515151; color: #999; display: block; padding: 7px 0 7px 3px; }
+.sbOptions .sbGroup { border-bottom: dotted 1px #515151; color: #EBB52D; display: block; font-weight: bold; padding: 7px 0 7px 3px; }
+.sbOptions .sbSub { padding-left: 17px; }
+.sbOptions li:last-child a { border-bottom: 0 }
+.sbOptions.product-filter-selections { z-index: 0; position:relative; top:0}
+.sbOptions.product-filter-selections li{height: 35px;}

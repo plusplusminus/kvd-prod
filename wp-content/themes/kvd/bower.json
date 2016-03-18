@@ -1,0 +1,22 @@
+{
+  "name": "Singita",
+  "version": "0.0.1",
+  "homepage": "https://github.com/plusplusminus/singita",
+  "authors": [
+    "Sergio Pellegrini <sergio@plusplusminus.co.za>"
+  ],
+  "description": "Singita Website",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bxslider-4": "~4.2.5",
+    "flag-icon-css": "~0.8.5",
+    "tether": "~1.1.1"
+  }
+}

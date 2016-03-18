@@ -1,0 +1,42 @@
+{% block content %}
+</div>
+<div class="content-container">
+
+	{% include "about-navigation" %}
+
+	<div class="single-title-holder img-container holderjs" data-background-src="?holder.js/1600x350?fg=efefef">
+		<div class="container-fluid">
+			<div class="row">			
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<br><br><br><br>
+					<h1>Lodge Manager Application<br><small>Sasakwa Lodge, Singita Serengeti</small></h1>
+					<br><br>
+					<p class="lead"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container">
+	<br><br><br>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="lead text-center">Breif intro for position. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus variusmagna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut massa justo sit amet risus.<br><a class="btn btn-sm btn-link" data-toggle="modal" data-target="#detailsModal">More details <i class="fa fa-info-circle"></i></a></p>
+					<br><hr>
+				</div>
+			</div>
+
+			<div class="row">
+				<p class="lead text-center"><em><strong>Form Details</strong></em></p>
+				<hr>
+			</div>
+		</div>
+	</div><!--/.row-->
+	<br><br><br>
+</div>
+	{% include "about/about-careers-modal-details" %}
+{% endblock %}

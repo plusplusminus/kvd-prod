@@ -1,0 +1,209 @@
+.wizard{
+	> .content{
+		> .body {
+			input{
+				&:focus{
+					border-color: $c2;
+				}
+			}
+			input[type="checkbox"]{
+				width: 20px;
+			}
+		}
+	}
+	&.wizard{
+		.content .body.login-step{
+			p{
+				@media (min-width: 32.1em) {
+					width: 50%;
+					text-align: center;
+					margin: auto;
+				}
+			}
+			.form-group{
+				@media (min-width: 32.1em) {
+					width: 50%;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				.button{
+					background: #222222;
+				    border: 2px solid #222222;
+				    color: #fff;
+				    font-size: 10px;
+				    display: inline-block;
+				    text-align: center;
+				    text-transform: uppercase;
+				    font-weight: 500;
+				    height: auto;
+				    letter-spacing: 0.3em;
+				    padding: 11px 21px 10px;
+				    transition: all 0.3s linear 0s;
+				    border-radius: 0 !important;
+					&:hover{
+						background: none;
+				    	color: #222;
+					}
+				}
+			}
+		}
+		> .actions{
+			> ul{
+				width: 100%;
+				li{
+					float: right;
+				}
+				.first{
+					float: left;
+				}
+			}
+			a{
+				background: none;
+			    border: 2px solid #222222;
+			    color: #222;
+			    font-size: 10px;
+			    display: inline-block;
+			    text-align: center;
+			    text-transform: uppercase;
+			    font-weight: 500;
+			    height: auto;
+			    letter-spacing: 0.3em;
+			    padding: 11px 21px 10px;
+			    transition: all 0.3s linear 0s;
+			    border-radius: 0 !important;
+				&:hover{
+					background: #222;
+			    	color: #fff;
+				}
+			}
+		}
+		> .steps{
+			border-top: 2px solid $c2;		
+			border-bottom: 2px solid $c2;
+			margin-bottom: 3em;
+			.tablist{
+				margin: 0;
+			}
+			&.clearfix:after{
+				margin-bottom: 0;
+			}
+			> ul{
+				> li{
+					padding-top: 1rem;
+					padding-bottom: 1rem; 
+					position: relative;
+					&:hover{
+						background-color: transparent;
+					}
+					&:after{
+						content: "\63";
+						position: absolute;
+						top: 50%;
+						right: 0;
+						margin-top: -9px;
+						font-family: "kvd" !important;
+					    font-style: normal !important;
+					    font-weight: normal !important;
+					    font-variant: normal !important;
+					    text-transform: none !important;
+					    speak: none;
+					    line-height: 1;
+					    -webkit-font-smoothing: antialiased;
+					    -moz-osx-font-smoothing: grayscale;
+					}
+					&.last:after{
+						display: none;
+					}
+					a{
+						padding: 20px;
+						font-weight: 600;
+						text-transform: uppercase;
+						font-size: 13px;
+						letter-spacing: 0.02em;
+						font-family: "proxima-nova", sans-serif;
+						border-bottom: none;
+					}
+					&.current{
+						a{
+							color: $c2;
+						}
+					}
+					&.done{
+						a{
+							color: $c1;
+							background-color: transparent;
+							&:hover{
+								color: $c2;
+								background-color: transparent;
+							}
+						}
+					}
+					&.disabled{
+						a{
+							color: $c1;
+							&:hover{
+								background: transparent;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.wc-terms-and-conditions{
+	label.c-input{
+	    display: inline-block;
+	    margin-bottom: 0.5em;
+	    padding: 1rem 3rem;
+	    .c-indicator{
+    		margin: 0.5rem;
+    		padding: 0.5rem;
+    		top: 0.9rem;
+    		width: 1.5rem;
+    		height: 1.5rem;
+    		background-color: #ccc;
+    		border-radius: 0px;
+	    }
+	}
+}
+
+.c-input > input:checked ~ .c-indicator{
+	background-color: #222;
+}
+
+.c-input > input:focus ~ .c-indicator{
+	box-shadow: none;
+}
+
+.pickup_location{
+	ul{
+		li{
+			list-style: none;
+			padding-bottom: 0px !important;
+			input[type="radio"]{
+	    		width: 20px;
+	    		float: left;
+			}
+			label{
+				margin-bottom: 0px !important;
+			}
+		}
+	}
+	.wc-pickup-location-note{
+		padding-left: 1.3rem;
+    	padding-top: 1rem;
+	}
+}
+
+#ship-to-different-address{
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.07em;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+
+.woocommerce span.onsale {display:none;}

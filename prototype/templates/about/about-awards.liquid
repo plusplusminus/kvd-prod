@@ -1,0 +1,72 @@
+{% block content %}
+</div>
+<div class="content-container">
+
+	{% include "about-navigation" %}
+
+	<div class="single-title-holder img-container holderjs" data-background-src="?holder.js/1600x350?fg=efefef">
+		<div class="container-fluid">
+			<div class="row">			
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<br><br><br><br>
+					<h1>Awards<br><small></small></h1>
+					<br><br>
+					<p class="lead"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 text-center awards-toggle">
+			<br>
+				<div class="btn-group text-center" role="group" style="float:none;">
+		    		<a href="#0" data-toggle="tab" class="btn btn-default btn-link active" style="float:none;">All</a>
+		    		<a href="#1" data-toggle="tab" class="btn btn-default btn-link" style="float:none;">Ebony Lodge</a>
+					<a href="#2" data-toggle="tab" class="btn btn-default btn-link" style="float:none;">Boulders Lodge</a>
+					<a href="#3" data-toggle="tab" class="btn btn-default btn-link" style="float:none;">Lebombo Lodge</a>
+					<a href="#4" data-toggle="tab" class="btn btn-default btn-link" style="float:none;">Sweni Lodge</a>
+					<a href="#6" data-toggle="tab" class="btn btn-default btn-link" style="float:none;">Sasakwa Lodge</a>
+					<a href="#7" data-toggle="tab" class="btn btn-default btn-link" style="float:none;">Pamushana Lodge</a>
+				</div>
+			<hr>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane in active" id="0">
+			{% include "about/about-awards-panel-all" %}
+		</div><!--/.tabpanel-->
+
+		<div role="tabpanel" class="tab-pane fade" id="1">
+			{% include "about/about-awards-panel-ebony" %}
+		</div><!--/.tabpanel-->
+
+		<div role="tabpanel" class="tab-pane fade" id="2">
+			{% include "about/about-awards-panel-boulders" %}
+		</div><!--/.tabpanel-->
+		<div role="tabpanel" class="tab-pane fade" id="3">
+			{% include "about/about-awards-panel-lebombo" %}
+		</div><!--/.tabpanel-->
+		<div role="tabpanel" class="tab-pane fade" id="4">
+			<p><strong><em>Will work in similar fashion to first 4 tabs</em></strong></p>
+		</div><!--/.tabpanel-->
+		<div role="tabpanel" class="tab-pane fade" id="5">
+			<p><strong><em>Will work in similar fashion to first 4 tabs</em></strong></p>
+		</div><!--/.tabpanel-->
+		<div role="tabpanel" class="tab-pane fade" id="6">
+			<p><strong><em>Will work in similar fashion to first 4 tabs</em></strong></p>
+		</div><!--/.tabpanel-->
+		<div role="tabpanel" class="tab-pane fade" id="7">
+			<p><strong><em>Will work in similar fashion to first 4 tabs</em></strong></p>
+		</div><!--/.tabpanel-->
+
+	</div><!--/.tab-content-->
+</div>
+
+{% endblock %}

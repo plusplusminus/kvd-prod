@@ -1,0 +1,39 @@
+{
+	"regions": [
+		{
+			"offset": "",
+			"region": "Singita Sabi Sand<br><small>South Africa</small>",
+			"region-code": "za",
+			"region-link": "sabi",
+			"description": "The Sabi Sand is a privately owned game reserve adjacent to Kruger National Park, and together the two areas make up some of South Africa’s most incredible and pristine land.<br><a href='/lodges/lodge-single'>Singita Ebony Lodge</a> | <a href='/lodges/lodge-single'>Singita Boulders Lodge</a> | <a href='/lodges/lodge-single'>Singita Castelton</a>"
+		},
+		{
+			"offset": "",
+			"region": "Singita Kruger National Park<br><small>South Africa</small>",
+			"region-code": "za",
+			"region-link": "kruger",
+			"description": "Singita Kruger National Park’s mission is to create and maintain a balance between conservation, community development, and ecotourism.<br><a href='/lodges/lodge-single'>Singita Lebombo Lodge</a> | <a href='/lodges/lodge-single'>Singita Sweni Lodge</a>"
+		},
+		{
+			"offset": "",
+			"region": "Singita Grumeti<br><small>Tanzania - <a href='/regions/serengeti'>Serengeti</a></small>",
+			"region-code": "tz",
+			"region-link": "grumeti",
+			"description": "Singita Grumeti, situated adjacent to the Serengeti National Park in Tanzania, is an integral part of the Serengeti-Mara Ecosystem, the home of the Great Migration.<br><a href='/lodges/lodge-single'>Singita Sasakwa Lodge</a> | <a href='/lodges/lodge-single'>Singita Sabora Tented Camp</a> | <a href='/lodges/lodge-single'>Singita Faru Faru Lodge</a> | <a href='/lodges/lodge-single'>Singita Serengeti House</a>  | <a href='/lodges/lodge-single'>Singita Explore</a>"
+		},
+		{
+			"offset": "2",
+			"region": "Singita Lamai<br><small>Tanzania - <a href='/regions/serengeti'>Serengeti</a></small>",
+			"region-code": "tz",
+			"region-link": "lamai",
+			"description": "Singita Mara River Tented Camp is located on the northern banks of the world-renowned Mara River in the Lamai triangle.<br><a href='/lodges/lodge-single'>Singita Mara River Tented Camp</a>"
+		},
+		{
+			"offset": "",
+			"region": "Singita Pamushana<br><small>Zimbabwe</small>",
+			"region-code": "zw",
+			"region-link": "pamushana",
+			"description": "In 1994, the not-for-profit Malilangwe Trust was established as a result of the largest ever single donor investment in Zimbabwe, in order to purchase, protect, and manage the extraordinary wilderness area next to the Gonarezhou National Park in southeastern Zimbabwe.<br><a href='/lodges/lodge-single'>Singita Pamushana Lodge</a>"
+		}
+	]
+}

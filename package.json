@@ -1,0 +1,24 @@
+{
+  "name": "KVD",
+  "version": "1.0.0",
+  "description": "Kat van Duinen",
+  "main": "gruntfile.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plusplusminus/kvd.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-ftp-deploy": "^0.1.7"
+  },
+  "author": "Sergio Pellegrini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plusplusminus/kvd/issues"
+  },
+  "homepage": "https://github.com/plusplusminus/kvd"
+}

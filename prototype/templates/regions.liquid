@@ -1,0 +1,46 @@
+{% block content %}
+</div>
+<div class="content-container">
+
+	{% include "/regions/regions-navigation" %}
+
+	<div class="single-text-holder img-container holderjs" data-background-src="?holder.js/1600x350?fg=efefef">
+		<div class="container-fluid">
+			<div class="row">			
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<br><br><br><br>
+					<h1>Singita Regions<br><small>Guests at Singita enjoy exclusive access to over half a million acres of pristine wilderness across five diverse ecosystems in Africa. As the trusted guardians of these untouched parcels of land, Singita affords its guests the opportunity to explore and connect with the bush while contributing to its conservation and preservation.</small></h1>
+					<br><br>
+					<p class="lead"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<br><br>
+
+<div class="container">
+<br>
+<hr>
+	<div class="row">
+		<div class="col-md-4">
+			<h2>Choose a Region<br>to Explore</h2>
+			<br>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	{% for region in model.regions %}
+	<div class="col-md-offset-{{region.offset}} col-md-4 text-center">
+		<div class="thumbnail">
+			<a href="/regions/{{ region.region-link }}"><img class="img-responsive" src="holder.js/800x260?fg=efefef"></a>
+		</div>
+		<i class="mg mg-2x map-{{region.region-code}}"></i>
+		<h4><a href="/regions/{{ region.region-link }}">{{ region.region }}</a></h4>
+		<P>{{ region.description }}</P>
+		<br>
+	</div>
+	{% endfor %}
+</div>
+{% endblock %}

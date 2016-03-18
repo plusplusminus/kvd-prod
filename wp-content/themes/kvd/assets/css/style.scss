@@ -1,0 +1,64 @@
+/*!
+Theme Name: KVD
+Theme URI: https://github.com/plusplusminus/singita/
+Author: Sergio Pellegrini
+Author URI: http://www.plusplusminus.co.za
+Description: KVD 
+Version: 1.0.0
+*/
+
+/* ----------------------------------------------------------------------------
+ * Mixins & Variables
+ * ------------------------------------------------------------------------- */
+@import "partials/mixins";
+
+@import "partials/variables";
+@import "vendor/bxslider";
+@import "../bower_components/bootstrap/scss/bootstrap.scss";
+$flag-icon-css-path: './assets/img/flags' !default;
+
+@import "../bower_components/flag-icon-css/sass/flag-icon.scss";
+
+@import "base/core";
+@import "base/responsive";
+
+
+/* ----------------------------------------------------------------------------
+ * Normalize & Santize
+ * ------------------------------------------------------------------------- */
+@import "vendor/normalize";
+@import "vendor/sanitize";
+
+
+
+@import "vendor/slider";
+
+
+
+/* ----------------------------------------------------------------------------
+ * Structure
+ * ------------------------------------------------------------------------- */
+@import "partials/structure";
+
+/* WPCore */
+@import "partials/wpcore";
+
+
+/* ----------------------------------------------------------------------------
+ * Theme
+ * ------------------------------------------------------------------------- */
+
+@import "theme/theme";
+@import "theme/gravity";
+@import "theme/product";
+@import "theme/cart";
+@import "theme/checkout";
+@import "theme/forms";
+
+
+
+
+/* ----------------------------------------------------------------------------
+ * Fonts
+ * ------------------------------------------------------------------------- */
+@import "fonts/_kvd";

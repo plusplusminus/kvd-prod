@@ -1,0 +1,69 @@
+{% block content %}
+</div>
+<div class="content-container">
+
+	{% include "conservation/conservation-navigation" %}
+
+	<div class="single-text-holder img-container holderjs" data-background-src="?holder.js/1600x350?fg=efefef">
+		<div class="container-fluid">
+			<div class="row">			
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<br><br><br><br>
+					<h1>Conservation at Singita<br><small>In days gone by, unspoilt wilderness on earth was found in abundance – but today it is rare, vulnerable and fragile and there is much to be done to protect these rapidly diminishing areas.</small></h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div class="container">
+	<br><br>
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="lead text-center">Conservation lives hand-in-hand with ecotourism and community development at Singita. We believe it’s the responsible way to maintain and extend the sustainability of our wildlife reserves. Singita is the attentive guardian of over half a million acres of pristine African wilderness.</p>
+					<br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p>Our hands-on conservation teams on each property are committed to protecting, maintaining and enhancing the land and its fauna and flora. They go above and beyond the constant conservation efforts of land rehabilitation, maintenance, wildlife monitoring and fencing security, to initiating effective and innovative anti-poaching methods, research, wildlife re-introduction, preserving invaluable San Rock Art sites and working on conservation issues beyond our boundaries.</p>
+				</div>
+				<div class="col-md-6">				 
+					<p>Below are described a selection of primary projects within four regions of Africa but beyond these there are a multitude of numerous successful initiatives that have come into fruition across all of the reserves and surrounding areas.  Each project supports Singita’s vision to preserve and protect wilderness areas for future generations through the three pillars of: wildlife conservation, eco-friendly tourism and community support.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			{% include "conservation/conservation-help" %}
+		</div>
+	</div><!--/.row-->
+	
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+	  {% for conservation in model.conservations %}
+	  <div class="col-md-{{ conservation.thumb-col }} col-md-offset-{{ conservation.col-offset }}">
+	    <div class="thumbnail">
+	      <a href="conservation/{{ conservation.link }}"><img class="img-responsive" src="holder.js/800px{{conservation.thumb-height}}?fg=efefef"></a>
+	    </div>
+	  </div>
+	  <div class="col-md-{{ conservation.text-col }}">
+	  	<a href="/regions/{{ conservation.region-link }}">{{ conservation.region }}</a>
+        <h2><a href="/conservation/{{ conservation.link }}">{{ conservation.title }}</a><br><small>
+        <p class="lead">{{ conservation.intro }}</p></small></h2>
+        <p><a href="conservation/{{ conservation.link }}" class="btn btn-link" role="button">More <i class="fa fa-long-arrow-right"></i></a></p>
+	  </div>
+	  <div class="{{ conservation.row-clear }}"></div>
+	  {% endfor %}
+	</div><!--/.row-->
+	<br>
+</div><!--/.container-fluid-->
+{% include "conservation/conservation-help-modal" %}
+{% endblock %}

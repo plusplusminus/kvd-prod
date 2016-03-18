@@ -1,0 +1,138 @@
+{
+	"title": "Lodges",
+	"lodges": [
+		{
+			"col-offset": "",
+			"thumb-col": "7",
+			"text-col": "4",
+			"thumb-height": "520",
+			"row-clear": "clearfix",
+			"name": "Singita Castleton",
+			"link": "lodge-single",
+			"region": "Sabi Sand - South Africa",
+			"region-link": "sabi",
+			"description": "Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla."
+		},
+		{
+			"col-offset": "2",
+			"thumb-col": "4",
+			"text-col": "4",
+			"thumb-height": "520",
+			"row-clear": "clearfix",
+			"name": "Singita Ebony Lodge",
+			"link": "lodge-single",
+			"region": "Sabi Sand - South Africa",
+			"region-link": "sabi",
+			"description": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "420",
+			"row-clear": "",
+			"name": "Singita Boulders Lodge",
+			"link": "lodge-single",
+			"region": "Sabi Sand - South Africa",
+			"region-link": "sabi",
+			"description": "Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "420",
+			"row-clear": "clearfix",
+			"name": "Singita Lebombo Lodge",
+			"link": "lodge-single",
+			"region": "Singita Kruger National Park - South Africa",
+			"region-link": "kruger",
+			"description": "Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "7",
+			"text-col": "4",
+			"thumb-height": "520",
+			"row-clear": "clearfix",
+			"name": "Singita Sweni Lodge",
+			"link": "lodge-single",
+			"region": "Singita Kruger National Park - South Africa",
+			"region-link": "kruger",
+			"description": "Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla."
+		},
+		{
+			"col-offset": "2",
+			"thumb-col": "4",
+			"text-col": "4",
+			"thumb-height": "520",
+			"row-clear": "clearfix",
+			"name": "Singita Sasakwa Lodge",
+			"link": "lodge-single",
+			"region": "Singita Grumeti - Tanzania",
+			"region-link": "grumeti",
+			"description": "Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "420",
+			"row-clear": "",
+			"name": "Singita Sabora Tented Camp",
+			"link": "lodge-single",
+			"region": "Singita Grumeti - Tanzania",
+			"region-link": "grumeti",
+			"description": "Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna."
+		},
+		{
+			"col-offset": "",
+			"thumb-col": "3",
+			"text-col": "3",
+			"thumb-height": "420",
+			"row-clear": "clearfix",
+			"name": "Singita Faru Faru Lodge",
+			"link": "lodge-single",
+			"region": "Singita Grumeti - Tanzania",
+			"region-link": "grumeti",
+			"description": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+		}
+	],
+	"regions": [
+		{
+			"offset": "",
+			"region": "Singita Sabi Sand<br><small>South Africa</small>",
+			"region-code": "za",
+			"region-link": "sabi",
+			"description": "The Sabi Sand is a privately owned game reserve adjacent to Kruger National Park, and together the two areas make up some of South Africa’s most incredible and pristine land.<br><a href='/lodges/lodge-single'>Singita Ebony Lodge</a> | <a href='/lodges/lodge-single'>Singita Boulders Lodge</a> | <a href='/lodges/lodge-single'>Singita Castelton</a>"
+		},
+		{
+			"offset": "",
+			"region": "Singita Kruger National Park<br><small>South Africa</small>",
+			"region-code": "za",
+			"region-link": "kruger",
+			"description": "Singita Kruger National Park’s mission is to create and maintain a balance between conservation, community development, and ecotourism.<br><a href='/lodges/lodge-single'>Singita Lebombo Lodge</a> | <a href='/lodges/lodge-single'>Singita Sweni Lodge</a>"
+		},
+		{
+			"offset": "",
+			"region": "Singita Grumeti<br><small>Tanzania - <a href='/regions/serengeti'>Serengeti</a></small>",
+			"region-code": "tz",
+			"region-link": "grumeti",
+			"description": "Singita Grumeti, situated adjacent to the Serengeti National Park in Tanzania, is an integral part of the Serengeti-Mara Ecosystem, the home of the Great Migration.<br><a href='/lodges/lodge-single'>Singita Sasakwa Lodge</a> | <a href='/lodges/lodge-single'>Singita Sabora Tented Camp</a> | <a href='/lodges/lodge-single'>Singita Faru Faru Lodge</a> | <a href='/lodges/lodge-single'>Singita Serengeti House</a>  | <a href='/lodges/lodge-single'>Singita Explore</a>"
+		},
+		{
+			"offset": "2",
+			"region": "Singita Lamai<br><small>Tanzania - <a href='/regions/serengeti'>Serengeti</a></small>",
+			"region-code": "tz",
+			"region-link": "lamai",
+			"description": "Singita Mara River Tented Camp is located on the northern banks of the world-renowned Mara River in the Lamai triangle.<br><a href='/lodges/lodge-single'>Singita Mara River Tented Camp</a>"
+		},
+		{
+			"offset": "",
+			"region": "Singita Pamushana<br><small>Zimbabwe</small>",
+			"region-code": "zw",
+			"region-link": "pamushana",
+			"description": "In 1994, the not-for-profit Malilangwe Trust was established as a result of the largest ever single donor investment in Zimbabwe, in order to purchase, protect, and manage the extraordinary wilderness area next to the Gonarezhou National Park in southeastern Zimbabwe.<br><a href='/lodges/lodge-single'>Singita Pamushana Lodge</a>"
+		}
+	]
+}

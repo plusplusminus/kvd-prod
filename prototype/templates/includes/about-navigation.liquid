@@ -1,0 +1,14 @@
+<div class="navbar navbar-default navbar-inverse">
+    <div class="container">
+        <a class="navbar-brand" href="/about">About Singita</a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li {% if mixture.url == "about/about-history" %}class="active"{% endif %}><a href="/about/about-history">History</a></li>
+                <li {% if mixture.url == "about/about-media" %}class="active"{% endif %}><a href="/about/about-media">Media</a></li>
+                <li {% if mixture.url contains "about/about-press" %}class="active"{% endif %}><a href="/about/about-press">Press</a></li>
+                <li {% if mixture.url == "about/about-awards" %}class="active"{% endif %}><a href="/about/about-awards">Awards</a></li>
+                <li {% if mixture.url == "about/about-careers" %}class="active"{% endif %}><a href="/about/about-careers">Careers</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

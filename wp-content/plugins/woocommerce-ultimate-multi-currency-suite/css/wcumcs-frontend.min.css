@@ -1,0 +1,7 @@
+﻿/**
+ * 
+ * Plugin: WooCommerce Ultimate Multi Currency Suite
+ * Author: http://dev49.net
+ *
+ */
+.wcumcs-switcher-buttons.wcumcs-container ul.wcumcs-list{overflow:hidden;list-style:none}.wcumcs-switcher-buttons.wcumcs-container li.wcumcs-list-item{float:left;margin:0 4px 4px 0;list-style:none}.wcumcs-switcher-buttons.wcumcs-container a.wcumcs-list-item-link{float:left;padding:1px 5px;border:1px solid #E6E6E6;border-radius:5px;transition:all 150ms ease}.wcumcs-switcher-buttons.wcumcs-container a.wcumcs-list-item-link.selected{background:#F2F2F2}.wcumcs-switcher-buttons.wcumcs-container a.wcumcs-list-item-link:hover{background:#FAFAFA;transition:all 150ms ease}
