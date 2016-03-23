@@ -214,3 +214,14 @@
 		height:550px;
 	}
 }
+
+// Stock
+.single-product-right{
+	.stock{
+		margin-bottom: 1rem;
+		font-style: italic;
+	}
+	.in-stock{
+		display: none;
+	}
+}

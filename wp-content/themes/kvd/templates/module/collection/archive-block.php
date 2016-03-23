@@ -2,7 +2,7 @@
 	<div class="collection-unit__row">
 		<div class="collection-unit__info">
 			<div class="collection-unit__heading">
-				<h2 class="heading__title"><?php the_title(); ?></h2>
+				<h2 class="heading__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			</div>
 			<div class="collection-unit__content">
 				<?php the_excerpt(); ?>
@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="collection-unit__image">
-			<?php the_post_thumbnail('full',array("class"=>"img-responsive")); ?>
+			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('full',array("class"=>"img-responsive")); ?></a>
 		</div>
 		
 	</div>

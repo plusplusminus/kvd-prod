@@ -1,3 +1,33 @@
+// SITE NOTICE
+p.demo_store{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	margin:0;
+	width:100%;
+	font-family:"proxima-nova",sans-serif;
+	font-size:12px;
+	font-weight:700;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:0.07em;
+	padding:5px 0;
+	background-color:#000;
+	color:#fff;
+	z-index:99998;
+	box-shadow:0 1px 1em rgba(0,0,0,.2);
+}
+
+// payment notice in checkout //
+
+ul.payment_methods li{
+	line-height:2;
+	text-align:center;
+	margin:0;
+	font-weight:700
+}
+
 // Woocommerce Buttons
 .woocommerce #respond input#submit,
 .woocommerce a.button,
@@ -1008,6 +1038,10 @@ span.results-count__title {
 
 // Collection & Collaborations
 .container_content--collections{
+	margin-top: 0rem;
+	@media (min-width: 767px){
+		margin-top: 6rem;
+	}
 }
 .single-collections,
 .single-collaborations{

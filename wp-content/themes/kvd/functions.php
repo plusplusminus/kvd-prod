@@ -457,4 +457,13 @@ add_action( 'init', 'my_add_excerpts_to_pages' );
     add_post_type_support( 'page', 'excerpt' );
 } 
 
+// Back Order Options
+function backorder_text($available) {
+  foreach($available as $i) {
+    $available = str_replace('Available on backorder', 'This item is out of stock. Please note that items out of stock may take up to 10 weeks to re-stock before being ready for dispatch. We will keep you notified as to the status of your back order, and advise when your item is ready for dispatch.', $available);
+  }
+  return $available;
+  }
+  add_filter('woocommerce_get_availability', 'backorder_text');
+
 ?>

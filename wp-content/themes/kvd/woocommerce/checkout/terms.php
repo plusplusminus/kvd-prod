@@ -17,7 +17,7 @@ if ( wc_get_page_id( 'terms' ) > 0 && apply_filters( 'woocommerce_checkout_show_
 			<span class="c-indicator"></span>
         		<?php printf( __( 'I&rsquo;ve read and accept the <a href="%s" target="_blank">terms &amp; conditions</a>', 'woocommerce' ), esc_url( wc_get_page_permalink( 'terms' ) ) ); ?> <span class="required">*</span><br>
         		I have checked my order and it is correct. <abbr class="required" title="required">*</abbr><br>
-        		I understand that <a href="http://www.dutycalculator.com/" title="Duty Calculator" target="_blank">Import Duty Fees</a> may apply to international orders. Kat van Duinen supplies insurance and CITES certification as standard. <abbr class="required" title="required">*</abbr>
+        		I understand that <a href="http://www.dutycalculator.com/new-import-duty-and-tax-calculation/" title="Duty Calculator" target="_blank">Import Duty Fees</a> may apply to international orders. Kat van Duinen supplies CITES certification as standard. <abbr class="required" title="required">*</abbr>
         </label>
         <input type="hidden" name="terms-field" value="1" />
     </p>
