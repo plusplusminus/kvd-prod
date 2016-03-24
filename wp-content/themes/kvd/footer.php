@@ -48,7 +48,7 @@
 
 	    			<a href="<?php echo get_page_link($footer_link1); ?>" title="<?php echo $footer_text1; ?>"><?php echo $footer_text1; ?></a> &nbsp;|&nbsp; <a target="_blank" href="<?php echo get_page_link($footer_link2); ?>" title="<?php echo $footer_text2; ?>"><?php echo $footer_text2; ?></a> 
 	    		</div>
-	    		<div class="footer-col3 footer-africa-map"> <a data-toggle="modal" data-target="#country-modal" href="<?php echo get_page_link($footer_icon_link); ?>"><?php echo $footer_icon_text; ?></a></div>
+	    		<div class="footer-col3 footer-africa-map"> <a href="<?php echo get_page_link($footer_icon_link); ?>"><?php echo $footer_icon_text; ?></a></div>
 	    		<div class="footer-col3 footer-copyright"> All rights reserved &copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</div>
 	   		</div>
 	  	</div>
