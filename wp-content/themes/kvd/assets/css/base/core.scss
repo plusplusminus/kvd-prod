@@ -280,7 +280,8 @@ a.link-underline.read-more:hover:after, .link-underline.read-more:hover:after { 
 .kvd-product .dis-table-cell { transition: all 0.3s linear 0s; -o-transition: all 0.3s linear 0s; -webkit-transition: all 0.3s linear 0s; -moz-transition: all 0.3s linear 0s; }
 
 
-.product-dtl-link { display: none; margin: 0 auto; font-size: 10px; font-weight: 500; letter-spacing: 0.3em; transition: all 0.3s linear 0s; -o-transition: all 0.3s linear 0s; -webkit-transition: all 0.3s linear 0s; -moz-transition: all 0.3s linear 0s; }
+.product-dtl-link {margin: 0 auto; font-size: 10px; font-weight: 500; letter-spacing: 0.3em; transition: all 0.3s linear 0s; -o-transition: all 0.3s linear 0s; -webkit-transition: all 0.3s linear 0s; -moz-transition: all 0.3s linear 0s; }
+.product-dtl-link {}
 .featured-products .product-dtl-link { display: table; }
 
 
