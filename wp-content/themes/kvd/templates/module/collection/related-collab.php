@@ -49,7 +49,9 @@
 
       <div class="coll-link-sect">
         <div class="product-dtl-link js-cat-link">
-          &mdash;
+          <a href="<?php echo get_permalink($kvd['about_page']); ?>" data-type="About" title="View more About">
+            About <span class="arrow-right"></span>
+          </a>
         </div>
         <a class="link-underline" href="<?php echo get_site_url(); ?>/about" title="About the Brand">About the brand</a>
       </div>
