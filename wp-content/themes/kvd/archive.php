@@ -7,7 +7,9 @@
 		<img src="<?php bloginfo('stylesheet_directory')?>/assets/img/header-about.jpg"/>
 	</div>
 	<div class="about-header__content">
-		<h1 class="about-header__title"><?php the_title(); ?></h1>
+		<h1 class="about-header__title">
+			    <?php printf(single_cat_title( '', false )); ?>
+		</h1>
 	</div>
 </header>
 
