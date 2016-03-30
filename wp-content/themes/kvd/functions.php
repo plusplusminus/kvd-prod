@@ -466,4 +466,19 @@ function backorder_text($available) {
   }
   add_filter('woocommerce_get_availability', 'backorder_text');
 
+// Remove Product edit screen options
+  function remove_edit_tabs_products($tabs){
+    unset($tabs['linked_product']);
+    unset($tabs['advanced']);
+    unset($tabs['addons_tab']);
+    return($tabs);
+}
+add_filter('woocommerce_product_data_tabs', 'remove_edit_tabs_products', 10, 1);
+
+// Remove WYSIWIG
+add_action('init', 'init_remove_support',100);
+function init_remove_support(){
+    $post_type = 'product';
+    remove_post_type_support( $post_type, 'editor');
+}
 ?>

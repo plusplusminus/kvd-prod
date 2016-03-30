@@ -591,24 +591,6 @@ function override_woocommerce_widgets() {
  
 }
 
-function woo_add_custom_general_fields() {
-
-  global $woocommerce, $post;
-  
-  echo '<div class="options_group">';
- 
-  	woocommerce_wp_checkbox( 
-		array( 
-			'id'            => '_cites_option', 
-			'label'         => __('CITES Product', 'woocommerce' ), 
-			'description'   => __( 'Select whether a CITES certificate is required for this product', 'woocommerce' ) 
-		)
-	);
-  
-  echo '</div>';
-	
-}
-
 function woo_add_custom_general_fields_save( $post_id ){
 	
 	// Checkbox

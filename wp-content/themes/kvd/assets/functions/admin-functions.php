@@ -235,6 +235,7 @@ class kvdAdminFunctions {
 			'object_types'  => array( 'page' ), // Post type
 			'context'       => 'normal',
 			'priority'      => 'high',
+			'show_on' => array( 'key' => 'page-template', 'value' => 'template-tc.php' ),
 			'show_names'    => true, // Show field names on the left
 			// 'cmb_styles' => false, // false to disable the CMB stylesheet
 			// 'closed'     => true, // true to keep the metabox closed by default
@@ -244,7 +245,6 @@ class kvdAdminFunctions {
 		    'id'          => $prefix . 'page_repeat_group',
 		    'type'        => 'group',
 		    'description' => __( 'Add repeatable entries below', 'cmb' ),
-			'show_on'      => array( 'key' => 'page-template', 'value' => array('template-tc.php')),
 		    'options'     => array(
 		        'group_title'   => __( 'Entry {#}', 'cmb' ), // since version 1.1.4, {#} gets replaced by row number
 		        'add_button'    => __( 'Add Another Entry', 'cmb' ),
@@ -264,7 +264,7 @@ class kvdAdminFunctions {
 
 		$page_meta->add_group_field( $group_collapse, array(
 		    'name' => 'Content',
-		    'description' => 'The content t be revealed',
+		    'description' => 'The content to be revealed',
 		    'id'   => 'content',
 		    'type' => 'wysiwyg',
 		    'options' => array(
