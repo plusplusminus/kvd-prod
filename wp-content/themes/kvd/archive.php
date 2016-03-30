@@ -85,12 +85,14 @@
 
 	</div><!--/.container-->
 
-	<nav class="wp-prev-next">
-		<ul class="clearfix">
-			<li class="prev-link"><?php next_posts_link( __( '&laquo; Older Entries', 'bonestheme' )) ?></li>
-			<li class="next-link"><?php previous_posts_link( __( 'Newer Entries &raquo;', 'bonestheme' )) ?></li>
-		</ul>
-	</nav>
+	<div class="container">
+		<nav class="wp-prev-next">
+			<ul class="clearfix">
+				<li class="prev-link"><?php next_posts_link( __( '<i class="icon icon-angle-left"></i> Older Entries', 'bonestheme' )) ?></li>
+				<li class="next-link"><?php previous_posts_link( __( 'Newer Entries <i class="icon icon-angle-right"></i>', 'bonestheme' )) ?></li>
+			</ul>
+		</nav>
+	</div>
 
 </section>
 
