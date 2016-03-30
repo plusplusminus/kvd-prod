@@ -77,27 +77,27 @@ class kvdProducts {
 		global $post;
 
 		$title = get_the_title();
-		
-		$fib= "";
-		$base_tweet = "Check this product from Kat van Duinen";
-
+		$link = get_the_permalink();
+		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), '' );
+		$fbi= "1788251904737075";
+		$base_tweet = "Have a look at this from Kat van Duinen - ";
 
 		echo 	'<a class="share-hover__cta" data-placement="top" data-toggle="popover" data-html="true"><i class="icon icon-icomoon"></i> Share</a>';
 		echo 	'<div id="social-content" class="share-hover">
 				  	<div class="share-hover__content">
 					    <div class="share-hover__icons">
-					      <a class="share-hover__link js-popup" href="https://www.facebook.com/dialog/share?app_id='.$fbid.'&amp;display=popup&amp;caption='.$caption.'&amp;href='.$link.'&amp;redirect_uri='.$link.'">
+					      <a class="share-hover__link js-popup" href="https://www.facebook.com/dialog/share?app_id='.$fbi.'&amp;display=popup&amp;caption='.$title.'&amp;href='.$link.'&amp;redirect_uri='.$link.'">
 					        <i class="icon icon-facebook"></i>
 					      </a>
 					      <a class="share-hover__link js-popup" href="https://twitter.com/intent/tweet?text='.$base_tweet.'&amp;url='.$link.'">
 					        <i class="icon icon-twitter"></i>
 					      </a>
 
-					      <a class="share-hover__link js-popup" href="https://www.pinterest.com/pin/create/button/?description='.$title.'&amp;url='.$link.'&amp;media='.$image.'">
+					      <a class="share-hover__link js-popup" href="https://www.pinterest.com/pin/create/button/?description='.$title.'&amp;url='.$link.'&amp;media='.$image[0].'">
 					        <i class="icon icon-pinterest-p"></i>
 					      </a>
 
-					      <a class="share-hover__link" href="mailto:?body='.$email_body.'%0D%0A%20'.$link.'&amp;subject='.$title.'">
+					      <a class="share-hover__link" href="mailto:?body='.$base_tweet.'%0D%0A%20'.$link.'&amp;subject='.$title.'">
 					        <i class="icon icon-envelope"></i>
 					      </a>
 					    </div>

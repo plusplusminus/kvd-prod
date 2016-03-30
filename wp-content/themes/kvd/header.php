@@ -37,6 +37,24 @@
 		<meta name="msapplication-config" content="<?php echo get_stylesheet_directory_uri();?>/assets/img/favicons/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 	    
+		<!-- Facebook APP -->
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '1788251904737075',
+		      xfbml      : true,
+		      version    : 'v2.5'
+		    });
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
 	    <?php wp_head(); ?>
 
 	    
